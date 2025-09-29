@@ -170,6 +170,14 @@ export function ContactForm() {
                       +40 728 954 712 - Cristina
                     </a>
                   </div>
+                  <div className="mt-4 text-center">
+                    <p className="text-sm text-muted-foreground mb-2">
+                      Ne poți adresa și în WhatsApp întrebările tale
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Răspundem de obicei în câteva ore în timpul săptămânii
+                    </p>
+                  </div>
                 </CardContent>
               </Card>
             </div>
