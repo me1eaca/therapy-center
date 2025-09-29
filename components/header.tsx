@@ -38,14 +38,15 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center bg-transparent">
             <Image
               src="/images/logo.png"
               alt="Aware Connections Center"
               width={240}
               height={72}
               priority
-              className="h-14 w-auto drop-shadow-sm hover:drop-shadow-md transition-all duration-200"
+              className="h-14 w-auto drop-shadow-sm hover:drop-shadow-md transition-all duration-200 bg-transparent"
+              style={{ backgroundColor: 'transparent' }}
             />
           </div>
 
