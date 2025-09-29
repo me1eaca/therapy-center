@@ -36,7 +36,7 @@ export function AboutTherapists() {
                 </div>
                 <h3 className="text-lg font-semibold mb-3">Metode Dovedite Științific</h3>
                 <p className="text-muted-foreground text-sm">
-                  Folosim exclusiv tehnici cu eficacitate demonstrată: EFT, CBT, Schema Therapy, Art-terapie.
+                  Folosim tehnici cu eficacitate demonstrată: EFT, CBT, Schema Therapy, Terapie Sistemică, Art-terapie.
                 </p>
               </CardContent>
             </Card>
@@ -73,10 +73,10 @@ export function AboutTherapists() {
                     <h4 className="font-semibold mb-3 text-accent-foreground">Dezvoltare Profesională:</h4>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li>• Workshop-uri anuale internaționale</li>
-                      <li>• Supervizare clinică continuă</li>
+                      <li>• Dezvoltare profesională continuă bazată pe cercetare științifică</li>
                       <li>• Cercetare în domeniul terapiei de cuplu</li>
-                      <li>• Membru în asociații profesionale</li>
-                      <li>• Publicații în reviste de specialitate</li>
+                      <li>• Membri în asociații profesionale</li>
+                      <li>• Articole publicate în domeniul psihoterapiei</li>
                     </ul>
                   </div>
                 </div>
