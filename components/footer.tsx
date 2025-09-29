@@ -30,8 +30,8 @@ export function Footer() {
             <div>
               <h4 className="font-semibold mb-3">Servicii</h4>
               <div className="space-y-2 text-sm">
-                <p className="text-background/80">Terapie de Cuplu (EFT)</p>
-                <p className="text-background/80">Terapie Individuală (EFIT)</p>
+                <p className="text-background/80">Terapie de Cuplu</p>
+                <p className="text-background/80">Terapie Individuală</p>
                 <p className="text-background/80">Consiliere Psihologică</p>
                 <p className="text-background/80">Art-terapie</p>
               </div>

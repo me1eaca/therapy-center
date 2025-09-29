@@ -19,7 +19,7 @@ export function Services() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-primary" />
               </div>
-              <CardTitle className="text-2xl font-serif text-foreground">Terapie de Cuplu (EFT)</CardTitle>
+              <CardTitle className="text-2xl font-serif text-foreground">Terapie de Cuplu</CardTitle>
               <p className="text-lg text-primary font-medium">Reparați și consolidați legătura dintre voi</p>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -56,7 +56,7 @@ export function Services() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-8 h-8 text-primary" />
               </div>
-              <CardTitle className="text-2xl font-serif text-foreground">Terapie Individuală (EFIT)</CardTitle>
+              <CardTitle className="text-2xl font-serif text-foreground">Terapie Individuală</CardTitle>
               <p className="text-lg text-primary font-medium">Conectează-te cu un sine mai autentic și mai puternic</p>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -86,7 +86,7 @@ export function Services() {
 
               <div className="bg-accent/20 p-4 rounded-lg">
                 <p className="text-foreground/80 text-sm leading-relaxed">
-                  Merge dincolo de simptome și abordează rădăcinile emoționale ale problemelor.
+                  EFIT merge dincolo de simptome și abordează rădăcinile emoționale ale problemelor.
                 </p>
               </div>
             </CardContent>
