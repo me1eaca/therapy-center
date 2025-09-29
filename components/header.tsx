@@ -24,12 +24,13 @@ export function Header() {
   }
 
   const handleCTAClick = () => {
-    console.log("[v0] CTA button clicked, scrolling to contact") // Added debug logging
-    const element = document.getElementById("contact")
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-      setIsMenuOpen(false)
-    }
+    console.log("[v0] CTA button clicked, opening WhatsApp") // Added debug logging
+    // Open WhatsApp with choice between Cosmin and Cristina
+    const choice = confirm("Alege terapeutul:\nOK - Cosmin (+40 726 281 554)\nCancel - Cristina (+40 728 954 712)")
+    const phoneNumber = choice ? "40726281554" : "40728954712"
+    const whatsappUrl = `https://wa.me/${phoneNumber}`
+    window.open(whatsappUrl, '_blank')
+    setIsMenuOpen(false)
   }
 
   return (
@@ -79,8 +80,8 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button onClick={handleCTAClick} className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Programează o Ședință
+            <Button onClick={handleCTAClick} className="bg-green-600 text-white hover:bg-green-700">
+              Programează pe WhatsApp
             </Button>
           </div>
 
@@ -124,9 +125,9 @@ export function Header() {
               </a>
               <Button
                 onClick={handleCTAClick}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 w-full mt-4"
+                className="bg-green-600 text-white hover:bg-green-700 w-full mt-4"
               >
-                Programează o Ședință
+                Programează pe WhatsApp
               </Button>
             </nav>
           </div>

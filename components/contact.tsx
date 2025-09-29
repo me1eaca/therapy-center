@@ -153,13 +153,26 @@ export function Contact() {
               </CardContent>
             </Card>
 
-            {/* Additional info */}
+            {/* WhatsApp Contact */}
             <div className="bg-accent/20 p-6 rounded-lg">
-              <h3 className="font-semibold text-foreground mb-3">Program de lucru</h3>
-              <div className="space-y-2 text-sm text-muted-foreground">
-                <p>Luni - Vineri: 9:00 - 19:00</p>
-                <p>Sâmbătă: 10:00 - 16:00</p>
-                <p>Duminică: Închis</p>
+              <h3 className="font-semibold text-foreground mb-3">Contactează-ne pe WhatsApp</h3>
+              <div className="space-y-3">
+                <a 
+                  href="https://wa.me/40726281554" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"
+                >
+                  <Phone className="w-4 h-4" />  +40 726 281 554 - Cosmin
+                </a>
+                <a 
+                  href="https://wa.me/40728954712" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"
+                >
+                  <Phone className="w-4 h-4" />  +40 728 954 712 - Cristina
+                </a>
               </div>
             </div>
           </div>

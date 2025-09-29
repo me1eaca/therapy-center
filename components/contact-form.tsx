@@ -99,7 +99,10 @@ export function ContactForm() {
                   <h3 className="font-semibold mb-2">Contact Direct</h3>
                   <div className="space-y-1 text-sm text-muted-foreground">
                     <p className="flex items-center gap-2">
-                      <Phone className="w-4 h-4" />  +40 726 281 554
+                      <Phone className="w-4 h-4" />  +40 726 281 554 - Cosmin
+                    </p>
+                    <p className="flex items-center gap-2">
+                      <Phone className="w-4 h-4" />  +40 728 954 712 - Cristina
                     </p>
                     <p className="flex items-center gap-2">
                       <Mail className="w-4 h-4" /> office@awareconnections.eu
@@ -109,11 +112,24 @@ export function ContactForm() {
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-2">Program de Lucru</h3>
-                  <div className="space-y-1 text-sm text-muted-foreground">
-                    <p>Luni - Vineri: 9:00 - 19:00</p>
-                    <p>Sâmbătă: 10:00 - 16:00</p>
-                    <p>Duminică: Închis</p>
+                  <h3 className="font-semibold mb-2">Contactează-ne pe WhatsApp</h3>
+                  <div className="space-y-3">
+                    <a 
+                      href="https://wa.me/40726281554" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"
+                    >
+                      <Phone className="w-4 h-4" />  +40 726 281 554 - Cosmin
+                    </a>
+                    <a 
+                      href="https://wa.me/40728954712" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors"
+                    >
+                      <Phone className="w-4 h-4" />  +40 728 954 712 - Cristina
+                    </a>
                   </div>
                 </CardContent>
               </Card>
