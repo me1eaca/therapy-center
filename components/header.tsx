@@ -5,6 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -37,9 +38,19 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo and tagline */}
-          <div className="flex flex-col">
-            <h1 className="text-xl font-serif font-semibold text-foreground">Aware Connections Center</h1>
-            <p className="text-xs text-muted-foreground italic">Un vis devenit realitate</p>
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/logo.png"
+              alt="Aware Connections Center"
+              width={120}
+              height={40}
+              priority
+              className="h-10 w-auto"
+            />
+            <div className="flex flex-col">
+              <h1 className="text-xl font-serif font-semibold text-foreground">Aware Connections Center</h1>
+              <p className="text-xs text-muted-foreground italic">Un vis devenit realitate</p>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
