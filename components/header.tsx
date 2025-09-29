@@ -5,7 +5,6 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
-import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -38,15 +37,15 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center bg-transparent">
-            <Image
+          <div className="flex items-center">
+            <img
               src="/images/logo.png"
               alt="Aware Connections Center"
-              width={240}
-              height={72}
-              priority
-              className="h-14 w-auto drop-shadow-sm hover:drop-shadow-md transition-all duration-200 bg-transparent"
-              style={{ backgroundColor: 'transparent' }}
+              className="h-14 w-auto drop-shadow-sm hover:drop-shadow-md transition-all duration-200"
+              style={{ 
+                backgroundColor: 'transparent',
+                background: 'transparent'
+              }}
             />
           </div>
 
