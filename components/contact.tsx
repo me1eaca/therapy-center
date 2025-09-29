@@ -182,10 +182,10 @@ export function Contact() {
               </div>
               <div className="mt-4 text-center">
                 <p className="text-sm text-muted-foreground mb-2">
-                  Ne poți adresa și în WhatsApp întrebările tale
+                  Ne poți adresa și în WhatsApp<br />întrebările tale
                 </p>
-                <p className="text-xs text-muted-foreground">
-                  Răspundem de obicei în câteva ore în timpul săptămânii
+                <p className="text-sm text-muted-foreground">
+                  În timpul săptămânii răspundem de obicei în câteva ore
                 </p>
               </div>
             </div>

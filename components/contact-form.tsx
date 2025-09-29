@@ -114,7 +114,12 @@ export function ContactForm() {
                       <p>România</p>
                     </div>
                     <div className="mt-4">
-                      <div className="relative">
+                      <a 
+                        href="https://www.google.com/maps/dir/?api=1&destination=44.19593913669462,27.32654568210206"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
                         <iframe 
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.1458552528441!2d27.32654568210206!3d44.19593913669462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0230013ecea45%3A0x5099e5a33828dfb0!2sAware%20Connections%20Center!5e1!3m2!1sen!2sro!4v1759175477468!5m2!1sen!2sro" 
                           width="100%" 
@@ -123,19 +128,9 @@ export function ContactForm() {
                           allowFullScreen 
                           loading="lazy" 
                           referrerPolicy="no-referrer-when-downgrade"
-                          className="rounded"
+                          className="rounded hover:opacity-90 transition-opacity cursor-pointer"
                         ></iframe>
-                        <a 
-                          href="https://www.google.com/maps/dir/?api=1&destination=44.19593913669462,27.32654568210206"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-200 rounded cursor-pointer"
-                        >
-                          <div className="bg-white px-3 py-1 rounded shadow-md opacity-0 hover:opacity-100 transition-opacity">
-                            <span className="text-xs font-medium text-gray-700">Click pentru direcții</span>
-                          </div>
-                        </a>
-                      </div>
+                      </a>
                       <p className="text-xs text-muted-foreground mt-2 text-center">
                         Click pe hartă pentru direcții
                       </p>
@@ -172,10 +167,10 @@ export function ContactForm() {
                   </div>
                   <div className="mt-4 text-center">
                     <p className="text-sm text-muted-foreground mb-2">
-                      Ne poți adresa și în WhatsApp întrebările tale
+                      Ne poți adresa și în WhatsApp<br />întrebările tale
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                      Răspundem de obicei în câteva ore în timpul săptămânii
+                    <p className="text-sm text-muted-foreground">
+                      În timpul săptămânii răspundem de obicei în câteva ore
                     </p>
                   </div>
                 </CardContent>
