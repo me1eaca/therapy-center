@@ -25,12 +25,53 @@ export function Header() {
 
   const handleCTAClick = () => {
     console.log("[v0] CTA button clicked, opening WhatsApp") // Added debug logging
-    // Open WhatsApp with choice between Cosmin and Cristina
-    const choice = confirm("Alege terapeutul:\nOK - Cosmin (+40 726 281 554)\nCancel - Cristina (+40 728 954 712)")
-    const phoneNumber = choice ? "40726281554" : "40728954712"
-    const whatsappUrl = `https://wa.me/${phoneNumber}`
-    window.open(whatsappUrl, '_blank')
-    setIsMenuOpen(false)
+    // Create a custom modal for therapist selection
+    const modal = document.createElement('div')
+    modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50'
+    modal.innerHTML = `
+      <div class="bg-white rounded-lg p-6 max-w-sm mx-4">
+        <h3 class="text-lg font-semibold mb-4 text-center">Alege terapeutul</h3>
+        <div class="space-y-3">
+          <button id="cosmin-btn" class="w-full bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition-colors">
+            Cosmin (+40 726 281 554)
+          </button>
+          <button id="cristina-btn" class="w-full bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition-colors">
+            Cristina (+40 728 954 712)
+          </button>
+          <button id="close-modal" class="w-full bg-gray-300 text-gray-700 py-2 px-4 rounded hover:bg-gray-400 transition-colors">
+            Anulează
+          </button>
+        </div>
+      </div>
+    `
+    
+    document.body.appendChild(modal)
+    
+    // Add event listeners
+    document.getElementById('cosmin-btn')?.addEventListener('click', () => {
+      window.open('https://wa.me/40726281554', '_blank')
+      document.body.removeChild(modal)
+      setIsMenuOpen(false)
+    })
+    
+    document.getElementById('cristina-btn')?.addEventListener('click', () => {
+      window.open('https://wa.me/40728954712', '_blank')
+      document.body.removeChild(modal)
+      setIsMenuOpen(false)
+    })
+    
+    document.getElementById('close-modal')?.addEventListener('click', () => {
+      document.body.removeChild(modal)
+      setIsMenuOpen(false)
+    })
+    
+    // Close modal when clicking outside
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        document.body.removeChild(modal)
+        setIsMenuOpen(false)
+      }
+    })
   }
 
   return (
@@ -81,7 +122,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button onClick={handleCTAClick} className="bg-green-600 text-white hover:bg-green-700">
-              Programează pe WhatsApp
+              Programează-te prin WhatsApp
             </Button>
           </div>
 
@@ -127,7 +168,7 @@ export function Header() {
                 onClick={handleCTAClick}
                 className="bg-green-600 text-white hover:bg-green-700 w-full mt-4"
               >
-                Programează pe WhatsApp
+                Programează-te prin WhatsApp
               </Button>
             </nav>
           </div>
