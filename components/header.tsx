@@ -37,20 +37,16 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo and tagline */}
-          <div className="flex items-center space-x-3">
+          {/* Logo */}
+          <div className="flex items-center">
             <Image
               src="/images/logo.png"
               alt="Aware Connections Center"
-              width={120}
-              height={40}
+              width={200}
+              height={60}
               priority
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
-            <div className="flex flex-col">
-              <h1 className="text-xl font-serif font-semibold text-foreground">Aware Connections Center</h1>
-              <p className="text-xs text-muted-foreground italic">Un vis devenit realitate</p>
-            </div>
           </div>
 
           {/* Desktop Navigation */}
