@@ -40,7 +40,7 @@ export function Header() {
           {/* Logo and tagline */}
           <div className="flex items-center space-x-3">
             <Image
-              src="/logo.png"
+              src="/images/logo.png"
               alt="Aware Connections Center"
               width={120}
               height={40}
