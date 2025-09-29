@@ -42,10 +42,10 @@ export function Header() {
             <Image
               src="/images/logo.png"
               alt="Aware Connections Center"
-              width={200}
-              height={60}
+              width={240}
+              height={72}
               priority
-              className="h-12 w-auto"
+              className="h-14 w-auto drop-shadow-sm hover:drop-shadow-md transition-all duration-200"
             />
           </div>
 
