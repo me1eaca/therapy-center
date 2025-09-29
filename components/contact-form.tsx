@@ -107,19 +107,14 @@ export function ContactForm() {
                     <p className="flex items-center justify-center gap-2">
                       <Mail className="w-4 h-4" /> office@awareconnections.eu
                     </p>
-                    <div className="mt-4 text-xs">
-                      <p>Aware Connections Center</p>
+                    <div className="mt-4 text-sm">
+                      <p className="font-semibold text-foreground">Aware Connections Center</p>
                       <p>Str. Grivița 78</p>
                       <p>Călărași, județul Călărași</p>
                       <p>România</p>
                     </div>
                     <div className="mt-4">
-                      <a 
-                        href="https://www.google.com/maps/dir/?api=1&destination=Aware+Connections+Center,+Str.+Grivița+78,+Călărași,+România"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block"
-                      >
+                      <div className="relative">
                         <iframe 
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.1458552528441!2d27.32654568210206!3d44.19593913669462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0230013ecea45%3A0x5099e5a33828dfb0!2sAware%20Connections%20Center!5e1!3m2!1sen!2sro!4v1759175477468!5m2!1sen!2sro" 
                           width="100%" 
@@ -128,9 +123,19 @@ export function ContactForm() {
                           allowFullScreen 
                           loading="lazy" 
                           referrerPolicy="no-referrer-when-downgrade"
-                          className="rounded hover:opacity-90 transition-opacity cursor-pointer"
+                          className="rounded"
                         ></iframe>
-                      </a>
+                        <a 
+                          href="https://www.google.com/maps/dir/?api=1&destination=44.19593913669462,27.32654568210206"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-200 rounded cursor-pointer"
+                        >
+                          <div className="bg-white px-3 py-1 rounded shadow-md opacity-0 hover:opacity-100 transition-opacity">
+                            <span className="text-xs font-medium text-gray-700">Click pentru direcții</span>
+                          </div>
+                        </a>
+                      </div>
                       <p className="text-xs text-muted-foreground mt-2 text-center">
                         Click pe hartă pentru direcții
                       </p>
