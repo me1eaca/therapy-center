@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Crimson_Text } from "next/font/google"
 import { Suspense } from "react"
+import Script from 'next/script'
 import "./globals.css"
 
 const inter = Inter({
@@ -31,6 +32,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ro">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-42F04KCG72"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-42F04KCG72');
+          `}
+        </Script>
+      </head>
       <body className={`font-sans ${inter.variable} ${crimsonText.variable}`}>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
       </body>
