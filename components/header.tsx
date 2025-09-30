@@ -117,12 +117,6 @@ export function Header() {
             >
               Contact
             </a>
-            <a
-              href="/cautare"
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Căutare IA
-            </a>
           </nav>
 
           {/* CTA Button */}
@@ -169,12 +163,6 @@ export function Header() {
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
                 Contact
-              </a>
-              <a
-                href="/cautare"
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-              >
-                Căutare IA
               </a>
               <Button
                 onClick={handleCTAClick}
