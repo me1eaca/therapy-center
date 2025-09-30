@@ -20,7 +20,7 @@ export function Services() {
                 <Heart className="w-8 h-8 text-primary" />
               </div>
               <CardTitle className="text-2xl font-serif text-foreground">Terapie de Cuplu</CardTitle>
-              <p className="text-lg text-primary font-medium">Reparați și consolidați legătura dintre voi</p>
+              <p className="text-lg text-primary font-medium">Redescoperiți legătura care v-a unit</p>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
@@ -28,23 +28,22 @@ export function Services() {
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-foreground/80">De-escaladarea conflictelor</p>
+                    <p className="text-foreground/80">Opriți ciclurile de certuri și retragere care vă lasă singuri</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-foreground/80">Accesarea emoțiilor primare</p>
+                    <p className="text-foreground/80">Învățați să fiți accesibili, receptivi și implicați emoțional</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-foreground/80">Construirea unei legături emoționale sigure</p>
+                    <p className="text-foreground/80">Reconstruiți încrederea: "Ești acolo pentru mine?"</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-accent/20 p-4 rounded-lg">
-                <p className="text-foreground/80 text-sm leading-relaxed">
-                  EFT are o rată ridicată de succes dovedită științific. Nu se concentrează pe compromis, ci pe esența
-                  relației: legătura emoțională.
+                <p className="text-foreground/80 text-sm leading-relaxed text-center">
+                  EFT nu vă învață să vă certați mai bine. Vă ajută să transformați dansul dureros al deconectării într-o legătură sigură unde puteți să vă regăsiți unul pe celălalt.
                 </p>
               </div>
             </CardContent>
@@ -71,7 +70,7 @@ export function Services() {
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-foreground/80">Accesează și transformă emoțiile primare</p>
+                    <p className="text-foreground/80">Transformă vulnerabilitatea în putere, nu în rușine</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -79,14 +78,18 @@ export function Services() {
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-foreground/80">Construiește o bază emoțională internă sigură</p>
+                    <p className="text-foreground/80">Construiește o relație sigură cu tine însuți</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <p className="text-foreground/80">Dezvoltă relații autentice care te susțin</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-accent/20 p-4 rounded-lg">
                 <p className="text-foreground/80 text-sm leading-relaxed">
-                  EFIT merge dincolo de simptome și abordează rădăcinile emoționale ale problemelor.
+                  EFIT nu lucrează doar cu simptomele. Explorăm rădăcinile emoționale care alimentează tiparele distructive din viața ta.
                 </p>
               </div>
             </CardContent>
