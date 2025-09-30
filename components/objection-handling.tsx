@@ -114,8 +114,9 @@ export function ObjectionHandling() {
                       </p>
                     </div>
                     <div className="bg-destructive/10 rounded-lg p-4">
-                      <p className="text-lg font-medium text-destructive">
-                        Care este costul unei vieți în care te simți blocat și nefericit?
+                      <p className="text-lg font-bold text-destructive text-center">
+                        Care este costul unei vieți în care<br />
+                        te simți blocat și nefericit?
                       </p>
                     </div>
                   </div>
