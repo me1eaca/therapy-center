@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "pas-in-trei-plus-unu",
     title: "Pas în... trei, plus unu",
-    excerpt: "Cum am descoperit EFT și cum microbul s-a răspândit în familie. O poveste despre transformare, conexiune și puterea de a paela împreună.",
+    excerpt: "Cum am descoperit EFT și cum microbul s-a răspândit în familie. O poveste despre transformare, conexiune și oportunitatea de a ne dezvolta împreună.",
     author: {
       name: "Psiholog Cosmin Meleacă",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop",
@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
 
 **Cum am descoperit EFT și cum microbul s-a răspândit în familie**
 
-*Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu)*
+*Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu){:target="_blank"}*
 
 <p style="text-align: right; font-style: italic; margin-top: 1rem;">de Psih. Cosmin Meleacă</p>
 
