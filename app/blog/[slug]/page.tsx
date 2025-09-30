@@ -37,7 +37,7 @@ export default function BlogPostPage() {
   const currentUrl = typeof window !== "undefined" ? window.location.href : ""
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-pink-50/30">
+    <main className="min-h-screen bg-background">
       <ReadingProgressBar />
       <Header />
 
@@ -56,7 +56,7 @@ export default function BlogPostPage() {
         <div className="container mx-auto max-w-4xl">
           {/* Category Badge */}
           <div className="mb-4">
-            <span className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+            <span className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium">
               {post.category}
             </span>
           </div>
@@ -67,12 +67,12 @@ export default function BlogPostPage() {
           </h1>
 
           {/* Excerpt */}
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+          <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             {post.excerpt}
           </p>
 
           {/* Meta Info */}
-          <div className="flex flex-wrap items-center gap-6 text-gray-600 mb-8 pb-8 border-b">
+          <div className="flex flex-wrap items-center gap-6 text-muted-foreground mb-8 pb-8 border-b border-border">
             <div className="flex items-center gap-3">
               <Image
                 src={post.author.avatar}
@@ -82,8 +82,8 @@ export default function BlogPostPage() {
                 className="rounded-full"
               />
               <div>
-                <p className="font-medium text-gray-900">{post.author.name}</p>
-                <p className="text-sm text-gray-500">{post.author.role}</p>
+                <p className="font-medium text-foreground">{post.author.name}</p>
+                <p className="text-sm text-muted-foreground">{post.author.role}</p>
               </div>
             </div>
 
@@ -119,16 +119,16 @@ export default function BlogPostPage() {
             <ReactMarkdown
               components={{
                 h1: ({ children }) => (
-                  <h1 className="text-3xl font-serif font-bold mt-8 mb-4 text-gray-900">{children}</h1>
+                  <h1 className="text-3xl font-serif font-bold mt-8 mb-4 text-foreground">{children}</h1>
                 ),
                 h2: ({ children }) => (
-                  <h2 className="text-2xl font-serif font-semibold mt-8 mb-4 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">{children}</h2>
+                  <h2 className="text-2xl font-serif font-semibold mt-8 mb-4 text-primary">{children}</h2>
                 ),
                 h3: ({ children }) => (
-                  <h3 className="text-xl font-semibold mt-6 mb-3 text-gray-800">{children}</h3>
+                  <h3 className="text-xl font-semibold mt-6 mb-3 text-foreground">{children}</h3>
                 ),
                 p: ({ children }) => (
-                  <p className="text-gray-700 leading-relaxed mb-4">{children}</p>
+                  <p className="text-foreground/80 leading-relaxed mb-4">{children}</p>
                 ),
                 ul: ({ children }) => (
                   <ul className="list-disc list-inside mb-4 space-y-2">{children}</ul>
@@ -137,13 +137,13 @@ export default function BlogPostPage() {
                   <ol className="list-decimal list-inside mb-4 space-y-2">{children}</ol>
                 ),
                 blockquote: ({ children }) => (
-                  <blockquote className="border-l-4 border-pink-600 pl-4 italic my-6 text-gray-600">{children}</blockquote>
+                  <blockquote className="border-l-4 border-primary pl-4 italic my-6 text-muted-foreground">{children}</blockquote>
                 ),
                 strong: ({ children }) => (
-                  <strong className="font-semibold text-gray-900">{children}</strong>
+                  <strong className="font-semibold text-foreground">{children}</strong>
                 ),
                 hr: () => (
-                  <hr className="my-8 border-t-2 border-gray-200" />
+                  <hr className="my-8 border-t-2 border-border" />
                 ),
               }}
             >
@@ -152,8 +152,8 @@ export default function BlogPostPage() {
           </div>
 
           {/* Share Buttons (Bottom) */}
-          <div className="py-8 border-t border-b mb-12">
-            <p className="text-sm text-gray-600 mb-4">A fost util acest articol?</p>
+          <div className="py-8 border-t border-b border-border mb-12">
+            <p className="text-sm text-muted-foreground mb-4">A fost util acest articol?</p>
             <ShareButtons title={post.title} url={currentUrl} />
           </div>
 
@@ -161,7 +161,7 @@ export default function BlogPostPage() {
           <Newsletter />
 
           {/* Author Bio */}
-          <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 mb-12">
+          <div className="bg-secondary/30 rounded-2xl p-8 mb-12">
             <div className="flex flex-col md:flex-row gap-6 items-start">
               <Image
                 src={post.author.avatar}
@@ -172,8 +172,8 @@ export default function BlogPostPage() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-semibold mb-2">Despre {post.author.name}</h3>
-                <p className="text-gray-600 mb-4">{post.author.role}</p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-muted-foreground mb-4">{post.author.role}</p>
+                <p className="text-foreground/80 leading-relaxed">
                   Psihoterapeut specializat în Terapia Centrată pe Emoții (EFT), dedicat ajutorării cuplurilor și indivizilor să creeze conexiuni autentice și sănătoase.
                 </p>
               </div>
@@ -184,7 +184,7 @@ export default function BlogPostPage() {
 
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
-        <section className="py-16 px-4 bg-white">
+        <section className="py-16 px-4 bg-secondary/30">
           <div className="container mx-auto max-w-6xl">
             <h2 className="text-3xl font-serif font-bold mb-8 text-center">
               Articole similare
@@ -193,7 +193,7 @@ export default function BlogPostPage() {
             <div className="grid md:grid-cols-3 gap-8">
               {relatedPosts.map((relatedPost) => (
                 <Link key={relatedPost.slug} href={`/blog/${relatedPost.slug}`}>
-                  <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 h-full flex flex-col group">
+                  <article className="bg-card border border-border/50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 h-full flex flex-col group">
                     <div className="relative h-48 overflow-hidden">
                       <Image
                         src={relatedPost.featuredImage}
@@ -204,19 +204,19 @@ export default function BlogPostPage() {
                     </div>
 
                     <div className="p-6 flex-1 flex flex-col">
-                      <span className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 text-white px-3 py-1 rounded-full text-xs font-medium mb-3 w-fit">
+                      <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium mb-3 w-fit">
                         {relatedPost.category}
                       </span>
 
-                      <h3 className="text-lg font-serif font-semibold mb-2 group-hover:text-pink-600 transition-colors line-clamp-2">
+                      <h3 className="text-lg font-serif font-semibold mb-2 group-hover:text-primary transition-colors line-clamp-2">
                         {relatedPost.title}
                       </h3>
 
-                      <p className="text-gray-600 text-sm flex-1 line-clamp-2">
+                      <p className="text-muted-foreground text-sm flex-1 line-clamp-2">
                         {relatedPost.excerpt}
                       </p>
 
-                      <div className="flex items-center gap-2 mt-4 text-xs text-gray-500">
+                      <div className="flex items-center gap-2 mt-4 text-xs text-muted-foreground">
                         <Clock className="w-3 h-3" />
                         <span>{relatedPost.readTime}</span>
                       </div>

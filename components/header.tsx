@@ -20,6 +20,8 @@ export function Header() {
       console.log("[v0] Scrolling to element successful") // Added debug logging
     } else {
       console.log("[v0] Element not found with ID:", targetId) // Added debug logging
+      // If element not found, navigate to home page
+      window.location.href = `/#${targetId}`
     }
   }
 
@@ -77,13 +79,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b backdrop-blur-md bg-white/70">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-14 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <img
               src="/images/logo.png"
               alt="Aware Connections Center"
-              className="h-14 w-auto"
+              className="h-12 w-auto"
             />
           </div>
 
