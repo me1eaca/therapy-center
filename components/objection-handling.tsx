@@ -113,8 +113,8 @@ export function ObjectionHandling() {
                         • Câte zile în care nu ești cu adevărat prezent pentru cei dragi?
                       </p>
                     </div>
-                    <div className="bg-destructive/10 rounded-lg p-4">
-                      <p className="text-lg font-bold text-destructive text-center">
+                    <div className="bg-destructive/10 rounded-lg p-6 flex items-center justify-center">
+                      <p className="text-lg font-bold text-destructive text-center leading-relaxed">
                         Care este costul unei vieți în care<br />
                         te simți blocat și nefericit?
                       </p>
