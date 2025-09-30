@@ -115,7 +115,7 @@ export default function BlogPostPage() {
           </div>
 
           {/* Article Content */}
-          <div className="prose prose-lg max-w-none mb-12">
+          <div className="prose prose-lg max-w-none mb-12" style={{ textAlign: 'justify' }}>
             <ReactMarkdown
               components={{
                 h1: ({ children }) => (

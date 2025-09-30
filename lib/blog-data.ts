@@ -35,6 +35,8 @@ export const blogPosts: BlogPost[] = [
 
 *Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu)*
 
+<div style="text-align: right; font-style: italic; margin-top: 1rem;">de Psih. Cosmin Meleacă</div>
+
 ---
 
 Când am început să practic psihoterapia, mă simțeam destul de intimidat de ideea de a primi în cabinet cupluri. Asta pentru că păreau să vină prea târziu, atunci când parcă nu mai era nimic de făcut. Veneau după ani de furtuni, cu toată relația pustiită. Speranța parcă nu mai licărea dinspre nici unul. Asta mă făcea și pe mine să mă întreb dacă mai are rost să îi chinui.
@@ -67,7 +69,7 @@ Din acel moment pot spune că **totul s-a schimbat**. Cele 4 zile de seminar s-a
 
 Ce facem cu cei doi protagoniști ai cuplului? Sue Johnson vorbește despre acel **„dans"** al partenerilor și îl numește tango. De fapt, este un ciclu negativ de menținere a unei interacțiuni rigide între parteneri.
 
-## Ceea ce am înțeles atunci (și ce am continuat să înțeleg)
+## Ceea ce am început să înțeleg atunci și tot înțeleg de atunci
 
 **Primul adevăr care m-a lovit:** Suferința lor nu era un defect de caracter. Nu erau oameni defecți care nu se puteau înțelege. Comportamentele problematice, certurile nesfârșite, acuzele - toate erau simptome ale unei **deconectări emoționale profunde**.
 
@@ -87,17 +89,17 @@ De atunci povestea a tot continuat. Am participat la mai toate seminariile dedic
 
 ## Când padelatul solitar devine tandem
 
-Sunt pasionat de kayaking. Știu ce înseamnă să padelezi singur pe apă - libertatea, dar și vulnerabilitatea. Când valurile se agită sau curentul devine puternic, padelatul solitar poate deveni epuizant, chiar periculos.
+Sunt pasionat de kayaking. Știu ce înseamnă să padelezi singur pe apă - ai libertate, dar solo ești vulnerabil. Când valurile devin înspumate sau curentul devine puternic, padelatul solitar poate deveni epuizant, chiar periculos.
 
 Așa m-am simțit și în cabinet, lucrând cu cupluri înainte de EFT. Eram singur în această călătorie, încercând să navighez prin furtunile emoționale ale oamenilor, fără o hartă clară sau un coechipier.
 
-Apoi, pe vremea pandemiei COVID, ceva minunat s-a întâmplat. **Cristina**, colega și partenera mea de viață, a prins și ea "microbul". La început am virusat-o cu povești pe care i le spuneam după cursuri. Cum Sue Johnson vorbește despre *"nevoia de conexiune ca cel mai puternic motor al ființei umane"*, cum conexiunea umană este resursa fundamentală pentru vindecare, antidotul pentru dependență, depresie și anxietate. Cum nu putem procesa durerea singuri; avem nevoie de un companion plin de grijă.
+Apoi, prin vremea COVID-ului, ceva minunat s-a întâmplat. **Cristina**, colega și partenera mea de viață, a prins și ea "microbul". La început am virusat-o cu povești pe care i le spuneam după cursuri. Cum Sue Johnson vorbește despre *"nevoia de conexiune ca cel mai puternic motor al ființei umane"*, cum conexiunea umană este resursa fundamentală pentru vindecare, antidotul pentru dependență, depresie și anxietate. Cum nu putem procesa durerea singuri; avem nevoie de un companion plin de grijă.
 
-Cristina asculta, tot punea întrebări până când într-o zi mi-a zis: **"Vreau și eu să fac și eu EFT."**
+Cristina asculta, tot punea întrebări până când într-o zi mi-a zis: **"Vreau și eu să fac EFT!"**
 
 Și așa, "virusul" s-a răspândit. Cristina nu a făcut doar un training cu Simona Herb, ci a mers mai departe. A ales să se reapuce de școală și a făcut formarea de bază în Psihoterapia Sistemică Centrată pe Emoții. M-a făcut! EFT a devenit pentru ea nu doar un instrument, ci principala formă de terapie și specializarea ei.
 
-Dintr-o dată, padelatul a devenit mai ușor. În kayaking, când padelezi în doi, totul se schimbă - ritmul devine mai sigur, forța e mai temeinică, furtunile mai ușor de navigat. Fiecare știe când celălalt obosește, când trebuie să preia controlul, când trebuie să sincronizați mișcările.
+Dintr-o dată, padelatul a devenit mai ușor. În kayaking, când padelezi în doi, totul se schimbă - ritmul devine sincron, forța este dublă, furtunile mai ușor de traversat. Fiecare simte când celălalt obosește, când trebuie să preia controlul sau să îl cedeze.
 
 La fel s-a întâmplat și în practica noastră terapeutică.
 
