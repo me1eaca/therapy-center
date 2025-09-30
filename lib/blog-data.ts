@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
 
 *Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu)*
 
-<div style="text-align: right; font-style: italic; margin-top: 1rem;">de Psih. Cosmin Meleacă</div>
+<p style="text-align: right; font-style: italic; margin-top: 1rem;">de Psih. Cosmin Meleacă</p>
 
 ---
 
