@@ -36,17 +36,17 @@ export function Newsletter() {
   }
 
   return (
-    <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 my-12">
+    <div className="bg-secondary/30 rounded-2xl p-8 my-12">
       <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-flex p-3 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 mb-4">
-          <Mail className="w-6 h-6 text-white" />
+        <div className="inline-flex p-3 rounded-full bg-primary mb-4">
+          <Mail className="w-6 h-6 text-primary-foreground" />
         </div>
 
-        <h3 className="text-2xl font-serif font-semibold mb-3 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+        <h3 className="text-2xl font-serif font-semibold mb-3 text-foreground">
           Primește conținut exclusiv
         </h3>
 
-        <p className="text-gray-600 mb-6">
+        <p className="text-muted-foreground mb-6">
           Abonează-te la newsletter-ul nostru pentru articole despre relații, terapie și dezvoltare personală.
         </p>
 
@@ -57,13 +57,13 @@ export function Newsletter() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email-ul tău"
             required
-            className="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-600 focus:border-transparent"
+            className="flex-1 px-4 py-3 rounded-lg border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
           />
 
           <Button
             type="submit"
             disabled={status === "loading"}
-            className="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all"
+            className="px-6 py-3"
           >
             {status === "loading" ? "Se trimite..." : "Abonează-te"}
           </Button>
@@ -81,7 +81,7 @@ export function Newsletter() {
           </p>
         )}
 
-        <p className="text-xs text-gray-500 mt-4">
+        <p className="text-xs text-muted-foreground mt-4">
           Nu spam. Poți să te dezabonezi oricând.
         </p>
       </div>

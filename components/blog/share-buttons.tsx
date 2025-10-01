@@ -21,7 +21,7 @@ export function ShareButtons({ title, url }: ShareButtonsProps) {
 
   return (
     <div className="flex items-center gap-3">
-      <span className="text-sm text-gray-600 font-medium">Distribuie:</span>
+      <span className="text-sm text-muted-foreground font-medium">Distribuie:</span>
 
       <Button
         onClick={shareOnFacebook}

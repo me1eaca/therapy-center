@@ -1,52 +1,36 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
     const { email } = await request.json()
 
-    if (!email || !email.includes('@')) {
+    if (!email) {
       return NextResponse.json(
-        { error: 'Email invalid' },
+        { error: 'Email is required' },
         { status: 400 }
       )
     }
 
-    // TODO: În producție, aici ar trebui să trimiti email-ul către office@awareconnections.eu
-    // folosind un serviciu precum SendGrid, Mailgun, sau Resend
+    // In production, you would:
+    // 1. Validate email format
+    // 2. Store in database
+    // 3. Send confirmation email
+    // 4. Add to mailing list service (Mailchimp, ConvertKit, etc.)
 
-    // Pentru moment, simulăm succesul
-    console.log(`Newsletter signup: ${email} -> office@awareconnections.eu`)
-
-    // În producție, aici ar fi cod similar cu:
-    /*
-    const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        personalizations: [{
-          to: [{ email: 'office@awareconnections.eu' }],
-          subject: 'Nou abonat newsletter',
-        }],
-        from: { email: 'noreply@awareconnections.eu' },
-        content: [{
-          type: 'text/plain',
-          value: `Nou abonat la newsletter: ${email}`
-        }]
-      })
-    })
-    */
+    // For now, we'll just simulate success
+    console.log(`Newsletter subscription: ${email}`)
+    
+    // You could send an email to office@awareconnections.eu here
+    // using a service like Resend, SendGrid, or Nodemailer
 
     return NextResponse.json(
-      { message: 'Mulțumim pentru abonare!' },
+      { message: 'Successfully subscribed to newsletter' },
       { status: 200 }
     )
   } catch (error) {
-    console.error('Newsletter error:', error)
+    console.error('Newsletter subscription error:', error)
     return NextResponse.json(
-      { error: 'Eroare la procesarea cererii' },
+      { error: 'Internal server error' },
       { status: 500 }
     )
   }
