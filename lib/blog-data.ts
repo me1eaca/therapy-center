@@ -29,8 +29,6 @@ export const blogPosts: BlogPost[] = [
     category: "Povești de terapie",
     featuredImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop",
     content: `
-# Pas în... trei, plus unu
-
 **Cum am descoperit EFT și cum microbul s-a răspândit în familie**
 
 *Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu)*

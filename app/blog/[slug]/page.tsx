@@ -104,19 +104,23 @@ export default function BlogPostPage() {
             <ShareButtons title={post.title} url={currentUrl} />
           </div>
 
-          {/* Featured Image */}
-          <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden mb-12">
-            <Image
-              src={post.featuredImage}
-              alt={post.title}
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
+          {/* Article Content with Featured Image */}
+          <div className="mb-12">
+            {/* Featured Image - Float Left */}
+            <div className="float-left mr-6 mb-4 w-full sm:w-64 md:w-80">
+              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
+                <Image
+                  src={post.featuredImage}
+                  alt={post.title}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none mb-12" style={{ textAlign: 'justify' }}>
+            {/* Article Content */}
+            <div className="prose prose-lg max-w-none" style={{ textAlign: 'justify' }}>
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               components={{
@@ -164,6 +168,10 @@ export default function BlogPostPage() {
             >
               {post.content}
             </ReactMarkdown>
+            </div>
+            
+            {/* Clear float */}
+            <div className="clear-both"></div>
           </div>
 
           {/* Share Buttons (Bottom) */}
