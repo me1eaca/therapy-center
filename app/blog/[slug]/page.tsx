@@ -12,6 +12,7 @@ import { getPostBySlug, getRelatedPosts } from "@/lib/blog-data"
 import { Calendar, Clock, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ReactMarkdown from "react-markdown"
+import rehypeRaw from "rehype-raw"
 
 export default function BlogPostPage() {
   const params = useParams()
@@ -117,6 +118,7 @@ export default function BlogPostPage() {
           {/* Article Content */}
           <div className="prose prose-lg max-w-none mb-12" style={{ textAlign: 'justify' }}>
             <ReactMarkdown
+              rehypePlugins={[rehypeRaw]}
               components={{
                 h1: ({ children }) => (
                   <h1 className="text-3xl font-serif font-bold mt-8 mb-4 text-foreground">{children}</h1>
