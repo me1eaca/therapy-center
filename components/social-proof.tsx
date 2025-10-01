@@ -40,7 +40,7 @@ export function SocialProof() {
               <CardContent className="p-8">
                 <div className="w-20 h-20 rounded-full overflow-hidden mb-6 mx-auto relative">
                   <Image
-                    src="/images/cristina_meleaca.jpg"
+                    src="/images/cristina_meleaca_1.jpg"
                     alt="Cristina Meleacă"
                     fill
                     className="object-cover"

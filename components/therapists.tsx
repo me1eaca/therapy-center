@@ -20,7 +20,7 @@ export function Therapists() {
               <div className="text-center mb-6">
                 <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden relative">
                   <Image
-                    src="/images/cristina_meleaca.jpg"
+                    src="/images/cristina_meleaca_1.jpg"
                     alt="Cristina Meleacă"
                     fill
                     className="object-cover"
