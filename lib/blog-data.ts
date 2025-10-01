@@ -33,9 +33,9 @@ export const blogPosts: BlogPost[] = [
 
 **Cum am descoperit EFT și cum microbul s-a răspândit în familie**
 
-*Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu){:target="_blank"}*
+*Articol adaptat pentru Aware Connections din povestea originală publicată pe blogul personal [meleaca.eu](https://meleaca.eu)*
 
-<p style="text-align: right; font-style: italic; margin-top: 1rem;">de Psih. Cosmin Meleacă</p>
+*de Psih. Cosmin Meleacă*
 
 ---
 

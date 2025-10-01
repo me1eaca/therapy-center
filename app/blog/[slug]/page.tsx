@@ -145,6 +145,19 @@ export default function BlogPostPage() {
                 hr: () => (
                   <hr className="my-8 border-t-2 border-border" />
                 ),
+                a: ({ href, children }) => (
+                  <a 
+                    href={href} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    {children}
+                  </a>
+                ),
+                em: ({ children }) => (
+                  <em className="italic text-muted-foreground">{children}</em>
+                ),
               }}
             >
               {post.content}
