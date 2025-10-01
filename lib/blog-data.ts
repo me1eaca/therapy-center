@@ -130,7 +130,7 @@ Sue Johnson are o carte superbă dedicată cuplurilor. Se numește **„Hold me 
   },
   {
     slug: "iubito-totul-e-in-regula",
-    title: "Iubito, totul e în regulă?" - Când vorbim aceeași limbă, dar nu ne înțelegem",
+    title: "Iubito, totul e în regulă? - Când vorbim aceeași limbă, dar nu ne înțelegem",
     excerpt: "Aseară stând pe canapea cu Cristina povesteam despre ziua noastră. Nimic special, chestii de cuplu obișnuit. La un moment dat îmi zice: „Dar tu cum ești?" Și eu, pe pilot automat: „Bine, bine. Tu?" Ea a răspuns instant: „Bine și eu."",
     author: {
       name: "Psiholog Cosmin Meleacă",
