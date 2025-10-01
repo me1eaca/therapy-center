@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Phone, Mail } from "lucide-react"
+import { Phone, Mail, Navigation } from "lucide-react"
 
 export function ContactForm() {
   return (
@@ -113,27 +113,32 @@ export function ContactForm() {
                       <p>Călărași, județul Călărași</p>
                       <p>România</p>
                     </div>
-                    <div className="mt-4">
+                    
+                    {/* Directions Button */}
+                    <div className="mt-4 mb-4">
                       <a 
-                        href="https://www.google.com/maps/dir/?api=1&destination=44.19593913669462,27.32654568210206"
+                        href="https://www.google.com/maps/dir/?api=1&destination=Aware+Connections+Center,+Str.+Grivița+78,+Călărași,+România"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block"
+                        className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium"
                       >
-                        <iframe 
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.1458552528441!2d27.32654568210206!3d44.19593913669462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0230013ecea45%3A0x5099e5a33828dfb0!2sAware%20Connections%20Center!5e1!3m2!1sen!2sro!4v1759175477468!5m2!1sen!2sro" 
-                          width="100%" 
-                          height="200" 
-                          style={{border:0}} 
-                          allowFullScreen 
-                          loading="lazy" 
-                          referrerPolicy="no-referrer-when-downgrade"
-                          className="rounded hover:opacity-90 transition-opacity cursor-pointer"
-                        ></iframe>
+                        <Navigation className="w-4 h-4" />
+                        Obține direcții
                       </a>
-                      <p className="text-xs text-muted-foreground mt-2 text-center">
-                        Click pe hartă pentru direcții
-                      </p>
+                    </div>
+
+                    {/* Google Maps Widget */}
+                    <div className="mt-4">
+                      <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.1458552528441!2d27.32654568210206!3d44.19593913669462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0230013ecea45%3A0x5099e5a33828dfb0!2sAware%20Connections%20Center!5e1!3m2!1sen!2sro!4v1759175477468!5m2!1sen!2sro" 
+                        width="100%" 
+                        height="200" 
+                        style={{border:0}} 
+                        allowFullScreen 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                        className="rounded-lg shadow-sm"
+                      ></iframe>
                     </div>
                   </div>
                 </CardContent>
