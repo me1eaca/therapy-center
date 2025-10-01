@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Quote } from "lucide-react"
+import Image from "next/image"
 
 export function Therapists() {
   return (
@@ -17,8 +18,13 @@ export function Therapists() {
           <Card className="bg-card border-border/50 shadow-sm">
             <CardContent className="p-8">
               <div className="text-center mb-6">
-                <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-serif font-semibold text-primary">CM</span>
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden relative">
+                  <Image
+                    src="/images/cristina_meleaca.jpg"
+                    alt="Cristina Meleacă"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="text-2xl font-serif font-semibold text-foreground mb-2">Cristina Meleacă</h3>
                 <p className="text-primary font-medium">Psihoterapeut</p>
@@ -56,8 +62,13 @@ export function Therapists() {
           <Card className="bg-card border-border/50 shadow-sm">
             <CardContent className="p-8">
               <div className="text-center mb-6">
-                <div className="w-24 h-24 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-serif font-semibold text-primary">CM</span>
+                <div className="w-24 h-24 rounded-full mx-auto mb-4 overflow-hidden relative">
+                  <Image
+                    src="/images/cosmin_meleaca_1.jpg"
+                    alt="Cosmin Meleacă"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="text-2xl font-serif font-semibold text-foreground mb-2">Cosmin Meleacă</h3>
                 <p className="text-primary font-medium">Psihoterapeut</p>

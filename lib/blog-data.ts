@@ -21,13 +21,13 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Cum am descoperit EFT și cum microbul s-a răspândit în familie. O poveste despre transformare, conexiune și oportunitatea de a ne dezvolta împreună.",
     author: {
       name: "Psiholog Cosmin Meleacă",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop",
+      avatar: "/images/cosmin_meleaca_1.jpg",
       role: "Psihoterapeut EFT"
     },
     date: "2025-01-30",
     readTime: "8 min",
     category: "Povești de terapie",
-    featuredImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop",
+    featuredImage: "/images/cuplu_pas_in_3.jpg",
     content: `
 **Cum am descoperit EFT și cum microbul s-a răspândit în familie**
 

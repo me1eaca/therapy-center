@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { User, HandHeart, Heart, Microscope } from "lucide-react"
+import Image from "next/image"
 
 export function SocialProof() {
   return (
@@ -13,8 +14,13 @@ export function SocialProof() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="text-left">
               <CardContent className="p-8">
-                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <User className="w-8 h-8 text-primary" />
+                <div className="w-20 h-20 rounded-full overflow-hidden mb-6 mx-auto relative">
+                  <Image
+                    src="/images/cosmin_meleaca_1.jpg"
+                    alt="Cosmin Meleacă"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">Cosmin Meleacă</h3>
                 <p className="text-muted-foreground mb-4">
@@ -32,8 +38,13 @@ export function SocialProof() {
 
             <Card className="text-left">
               <CardContent className="p-8">
-                <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                  <User className="w-8 h-8 text-accent-foreground" />
+                <div className="w-20 h-20 rounded-full overflow-hidden mb-6 mx-auto relative">
+                  <Image
+                    src="/images/cristina_meleaca.jpg"
+                    alt="Cristina Meleacă"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-center">Cristina Meleacă</h3>
                 <p className="text-muted-foreground mb-4">
