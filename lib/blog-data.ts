@@ -923,14 +923,14 @@ Pentru alte articole despre relații, traume și vindecare, vizitează blogul pe
     title: "Generația Z — între ecrane și povești nespuse",
     excerpt: "Am stat față în față cu ei. Nu în spatele ecranelor, nu printr-un feed care se derulează la infinit, ci în aceeași cameră, respirând același aer. Ce am descoperit m-a surprins și m-a emoționat în egală măsură.",
     author: {
-      name: "Psihoterapeut Cristina Meleacă",
+      name: "Psih Cristina Meleacă",
       avatar: "/images/cristina_meleaca_1.jpg",
       role: "Psihoterapeut EFT"
     },
-    date: "2025-01-15",
+    date: "2025-05-18",
     readTime: "14 min",
     category: "Psihologie",
-    featuredImage: "/images/cristina_meleaca_1.jpg",
+    featuredImage: "/images/Generația Z — între ecrane și povești nespuse.png",
     content: `
 **Generația Z — între ecrane și povești nespuse**
 
@@ -982,14 +982,14 @@ Iar asta, poate, este cea mai importantă lecție pe care ne-o oferă: că dinco
     title: "Frica are un corp — și uneori dansează",
     excerpt: "Odată, ca niciodată s-au întâlnit un dramaturg, un regizor, trei actori, o coregrafă, un fotograf și un psiholog. Suntem în 2025, în cadrul proiectului Sutra, și ne-am propus ceva aparent simplu — să explorăm cum se raportează generația Z la cultura dominantă din România de azi.",
     author: {
-      name: "Psihoterapeut Cristina Meleacă",
+      name: "Psih Cristina Meleacă",
       avatar: "/images/cristina_meleaca_1.jpg",
       role: "Psihoterapeut EFT"
     },
-    date: "2025-01-20",
+    date: "2025-05-25",
     readTime: "12 min",
     category: "Psihologie",
-    featuredImage: "/images/cristina_meleaca_1.jpg",
+    featuredImage: "/images/Frica are un corp — și uneori dansează.png",
     content: `
 **Frica are un corp — și uneori dansează**
 
