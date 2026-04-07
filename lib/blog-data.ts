@@ -67,8 +67,6 @@ După **Bad Therapy**, unii ajung să nu mai ceară ajutor niciodată, chiar câ
 
 Dacă le citești pe amândouă fără filtru, apare frica: „n-am voie să greșesc", „totul e toxic", „toți vor ceva de la copilul meu". Și părintele nu mai trăiește în relație, ci în alertă.
 
-![Ce se întâmplă cu un părinte obosit?](/images/antiparenting-slide-04.png)
-
 Adevărul, mai puțin „vandabil”, e simplu: **meseria de părinte se învață și se simte**.
 
 ![Ce se întâmplă cu un părinte obosit?](/images/antiparenting-slide-04.png)

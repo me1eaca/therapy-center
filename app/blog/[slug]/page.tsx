@@ -178,12 +178,26 @@ export default function BlogPostPage() {
                   <em className="italic text-muted-foreground">{children}</em>
                 ),
                 img: ({ src, alt }) => {
+                  const isClosingVisual = (src || "").includes("antiparenting-slide-07.png")
+                  if (isClosingVisual) {
+                    return (
+                      <div className="w-full my-8 clear-both">
+                        <img
+                          src={src || ""}
+                          alt={alt || ""}
+                          loading="lazy"
+                          className="w-full rounded-xl border border-border/50 shadow-sm"
+                        />
+                      </div>
+                    )
+                  }
+
                   const isEven = inlineImageIndex % 2 === 0
                   inlineImageIndex += 1
                   return (
                   <div
                     className={`w-full sm:w-64 md:w-80 my-5 md:my-3 mx-auto md:mb-4 ${
-                      isEven ? "md:float-right md:ml-6" : "md:float-left md:mr-6"
+                      isEven ? "md:float-left md:mr-6" : "md:float-right md:ml-6"
                     }`}
                   >
                     <img
