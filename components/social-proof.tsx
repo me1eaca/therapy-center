@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export function SocialProof() {
   return (
-    <section className="py-20 bg-primary/5">
+    <section id="despre-noi" className="py-20 bg-primary/5">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-balance">
@@ -40,7 +40,7 @@ export function SocialProof() {
               <CardContent className="p-8">
                 <div className="w-[7.5rem] h-[7.5rem] rounded-full overflow-hidden mb-6 mx-auto relative">
                   <Image
-                    src="/images/cristina_meleaca_new.png"
+                    src="/images/Cris 3.png"
                     alt="Cristina Meleacă"
                     fill
                     className="object-cover"

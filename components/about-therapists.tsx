@@ -2,7 +2,7 @@ import { Heart, Shield, Sparkles } from "lucide-react"
 
 export function AboutTherapists() {
   return (
-    <section id="despre-noi" className="py-20 bg-secondary/40">
+    <section id="de-ce-aware-connections" className="py-20 bg-secondary/40">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
