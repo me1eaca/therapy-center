@@ -23,6 +23,86 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "cand-cartile-striga-prea-tare",
+    title: "Când cărțile strigă prea tare: cum să nu te pierzi în parenting",
+    excerpt:
+      "Două cărți, două extreme, mult zgomot și prea puțină încredere în părinți. Un articol despre cum rămâi cu busola în mână când parentingul devine o luptă de ideologii.",
+    author: {
+      name: "Psiholog Cosmin Meleacă",
+      avatar: "/images/cosmin_meleaca_1.jpg",
+      role: "Psihoterapeut EFT",
+    },
+    date: "2026-04-07",
+    readTime: "12 min",
+    category: "Parenting",
+    featuredImage: "/images/antiparenting-slide-03.png",
+    content: `
+**Când cărțile strigă prea tare: cum să nu te pierzi în parenting**
+
+<div align="right"><em>de Psih. Cosmin Meleacă</em></div>
+
+---
+
+Zilele trecute, o mămică s-a trântit pe canapeaua din cabinet, un pic furioasă, un pic agasată: „Eu nu mai înțeleg nimic, Cosmin! Am citit în ultima vreme câteva cărți de parenting și m-au debusolat. Fiecare are dreptate, fiecare pare venită din altă realitate."
+
+Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri, speakeri, reels de 60 de secunde care promit soluții rapide. Părinții se simt tot mai defecți, iar copiii ajung să plătească nota de plată a confuziei. Sondajele recente din SUA arată că aproape jumătate dintre tinerii Gen Z declară un diagnostic de sănătate mintală, în special anxietate și depresie.
+
+![Cine mai știe ce e bine?](/images/antiparenting-slide-01.png)
+
+Paradoxul e că afluxul de informație nu aduce liniște. Mulți părinți ajung copleșiți de avalanșa de „rețete” și avertismente, cu sentimentul că, orice ar face, tot își vor „strica” copilul.
+
+Recunosc, am și eu multe cărți pe raft. Azi mă leg de două care agață din extreme diferite: **Bad Therapy** (Abigail Shrier) și **Antiparenting** (Savatie Baștovoi). Sunt bine scrise, se citesc ușor și pun întrebări incomode, reale.
+
+![Două cărți, două extreme](/images/antiparenting-slide-02.png)
+
+Problema nu e că sunt critice. Problema e că fiecare merge foarte departe în direcția ei. Shrier vede un sistem care uneori „tratează oameni sănătoși și îi îmbolnăvește". Baștovoi vede un parenting modern care poate anula relația vie părinte-copil în favoarea manualului și a expertului.
+
+Citite fără filtru critic, te pot împinge într-o concluzie periculoasă: că soluția e să arunci la gunoi și psihologia, și orice reflecție conștientă despre creșterea copilului.
+
+Da, industria de „ajutor” poate face rău când nu are limite. Da, unele intervenții sunt făcute prost. Da, limbajul de parenting poate umili și bulversa. Dar asta nu înseamnă că totul e toxic.
+
+Manualele de parenting pot sabota încrederea părintelui când devin dogme. Atunci meseria de părinte pare rezervată experților, iar intuiția ta de mamă sau tată e anihilată.
+
+![Când cărțile strigă prea tare](/images/antiparenting-slide-03.png)
+
+Pentru un cititor cu gândire critică, e relativ simplu să extragă ce e valoros și să lase restul. Pentru un părinte obosit, vinovat, speriat să nu greșească iremediabil, efectul poate fi opus.
+
+După **Bad Therapy**, unii ajung să nu mai ceară ajutor niciodată, chiar când copilul are reală nevoie de intervenție. După **Antiparenting**, unii trăiesc rușine față de terapie sau consiliere, ca și cum ar fi trădare de identitate.
+
+Dacă le citești pe amândouă fără filtru, apare frica: „n-am voie să greșesc", „totul e toxic", „toți vor ceva de la copilul meu". Și părintele nu mai trăiește în relație, ci în alertă.
+
+![Ce se întâmplă cu un părinte obosit?](/images/antiparenting-slide-04.png)
+
+Adevărul, mai puțin „vandabil”, e simplu: **meseria de părinte se învață și se simte**.
+
+Se învață, pentru că nimeni nu se naște pregătit pentru crize, adolescență, ecrane, limite. Avem nevoie de repere, modele, cercetare serioasă, uneori și de terapie.
+
+Se simte, pentru că relația ta cu copilul tău e unică, vie, și nu încape într-un tabel „așa da / așa nu”. Când trăim doar după reguli, pierdem contactul cu copilul real din fața noastră.
+
+Când zgomotul e prea mare, mă întorc la Bowlby. Mesajul lui de bază: copilul are nevoie de o figură de atașament **suficient de sigură**, nu de una perfectă.
+
+![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
+
+Asta e vestea eliberatoare: copilul tău are nevoie de tine, nu de o versiune sterilă, perfectă a ta.
+
+Ca părinte, merită să ții minte că excesele există. Fii atent pe mâna cui îți lași copilul. Întreabă de formare, cere dovezi, verifică limitele. Nu e lipsă de respect, e implicare.
+
+Dar nu arunca la gunoi toată psihologia. Caută surse serioase, bine argumentate. Protejează-ți încrederea în tine: citește, consultă-te, apoi decide în acord cu conștiința ta și cu realitatea copilului tău.
+
+Folosește teoria atașamentului ca **busolă, nu bici**. Nu „am stricat copilul?”, ci „ce pot face mâine ca relația noastră să fie un pic mai sigură, mai caldă, mai clară?”
+
+![Busolă, nu bici](/images/antiparenting-slide-05.png)
+
+Dacă după toate cărțile te simți și mai neliniștit, privește-le ca pe fotografii extreme ale unei lumi care a uitat să aibă încredere în părinți.
+
+Tu nu ești suma fricilor lor. Ești omul pe care copilul tău îl caută seara, când îi e frică, când se bucură, când cade și când se ridică.
+
+![Tu nu ești suma fricilor lor](/images/antiparenting-slide-07.png)
+
+Poate că suntem prima generație de părinți care crește copii într-o lume în schimbare, fără un manual scris exact pentru noi. Și poate că exact asta ne eliberează: să fim prezenți, nu perfecți.
+`,
+  },
+  {
     slug: "pas-in-trei-plus-unu",
     title: "Pas în... trei, plus unu",
     excerpt: "Cum am descoperit EFT și cum microbul s-a răspândit în familie. O poveste despre transformare, conexiune și oportunitatea de a ne dezvolta împreună.",

@@ -27,7 +27,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:office@awareconnections.eu"
-                  className="flex items-center gap-3 text-background/70 hover:text-background transition-colors text-sm"
+                  className="flex items-center gap-3 text-[#25D366] hover:text-[#1ebe5d] transition-colors text-sm"
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
                   office@awareconnections.eu
@@ -38,7 +38,7 @@ export function Footer() {
                   href="https://wa.me/40728954712"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-background/70 hover:text-background transition-colors text-sm"
+                  className="flex items-center gap-3 text-[#25D366] hover:text-[#1ebe5d] transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 flex-shrink-0" />
                   Cristina · WhatsApp · +40728954712

@@ -34,10 +34,10 @@ export function Header() {
       <div class="bg-white rounded-lg p-6 max-w-sm mx-4">
         <h3 class="text-lg font-semibold mb-4 text-center">Alege terapeutul</h3>
         <div class="space-y-3">
-          <button id="cosmin-btn" class="w-full bg-primary text-primary-foreground py-2 px-4 rounded hover:bg-primary/90 transition-colors">
+          <button id="cosmin-btn" class="w-full bg-[#25D366] text-white py-2 px-4 rounded hover:bg-[#1ebe5d] transition-colors">
             Cosmin (+40 726 281 554)
           </button>
-          <button id="cristina-btn" class="w-full bg-primary text-primary-foreground py-2 px-4 rounded hover:bg-primary/90 transition-colors">
+          <button id="cristina-btn" class="w-full bg-[#25D366] text-white py-2 px-4 rounded hover:bg-[#1ebe5d] transition-colors">
             Cristina (+40 728 954 712)
           </button>
           <button id="close-modal" class="w-full bg-gray-300 text-gray-700 py-2 px-4 rounded hover:bg-gray-400 transition-colors">
@@ -129,7 +129,7 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button onClick={handleCTAClick}>
+            <Button onClick={handleCTAClick} className="bg-[#25D366] text-white hover:bg-[#1ebe5d]">
               Programează-te prin WhatsApp
             </Button>
           </div>
@@ -180,7 +180,7 @@ export function Header() {
               </a>
               <Button
                 onClick={handleCTAClick}
-                className="w-full mt-4"
+                className="w-full mt-4 bg-[#25D366] text-white hover:bg-[#1ebe5d]"
               >
                 Programează-te prin WhatsApp
               </Button>
