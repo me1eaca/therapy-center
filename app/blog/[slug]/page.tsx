@@ -174,6 +174,16 @@ export default function BlogPostPage() {
                 em: ({ children }) => (
                   <em className="italic text-muted-foreground">{children}</em>
                 ),
+                img: ({ src, alt }) => (
+                  <figure className="my-6">
+                    <img
+                      src={src || ""}
+                      alt={alt || ""}
+                      loading="lazy"
+                      className="w-full max-w-md mx-auto rounded-xl border border-border/50 shadow-sm"
+                    />
+                  </figure>
+                ),
               }}
             >
               {post.content}

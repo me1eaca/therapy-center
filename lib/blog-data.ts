@@ -41,8 +41,6 @@ Zilele trecute, o mămică s-a trântit pe canapeaua din cabinet, un pic furioas
 
 Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri, speakeri, reels de 60 de secunde care promit soluții rapide. Părinții se simt tot mai defecți, iar copiii ajung să plătească nota de plată a confuziei. Sondajele recente din SUA arată că aproape jumătate dintre tinerii Gen Z declară un diagnostic de sănătate mintală, în special anxietate și depresie.
 
-![Cine mai știe ce e bine?](/images/antiparenting-slide-01.png)
-
 Paradoxul e că afluxul de informație nu aduce liniște. Mulți părinți ajung copleșiți de avalanșa de „rețete” și avertismente, cu sentimentul că, orice ar face, tot își vor „strica” copilul.
 
 Recunosc, am și eu multe cărți pe raft. Azi mă leg de două care agață din extreme diferite: **Bad Therapy** (Abigail Shrier) și **Antiparenting** (Savatie Baștovoi). Sunt bine scrise, se citesc ușor și pun întrebări incomode, reale.
