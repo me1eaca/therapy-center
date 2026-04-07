@@ -36,6 +36,7 @@ export default function BlogPostPage() {
 
   const relatedPosts = getRelatedPosts(post.slug, post.category, 3)
   const currentUrl = typeof window !== "undefined" ? window.location.href : ""
+  let inlineImageIndex = 0
 
   return (
     <main className="min-h-screen bg-background">
@@ -117,17 +118,19 @@ export default function BlogPostPage() {
           {/* Article Content with Featured Image */}
           <div className="mb-12">
             {/* Featured Image - Float Left */}
-            <div className="float-left mr-6 mb-4 w-full sm:w-64 md:w-80">
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
-                <Image
-                  src={post.featuredImage}
-                  alt={post.title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
+            {!post.hideFeaturedImage && (
+              <div className="float-left mr-6 mb-4 w-full sm:w-64 md:w-80">
+                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
+                  <Image
+                    src={post.featuredImage}
+                    alt={post.title}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Article Content */}
             <div className="prose prose-lg max-w-none" style={{ textAlign: 'justify' }}>
@@ -174,8 +177,15 @@ export default function BlogPostPage() {
                 em: ({ children }) => (
                   <em className="italic text-muted-foreground">{children}</em>
                 ),
-                img: ({ src, alt }) => (
-                  <div className="w-full sm:w-72 md:w-64 lg:w-72 my-5 md:my-3 mx-auto md:float-right md:ml-6 md:mb-4">
+                img: ({ src, alt }) => {
+                  const isEven = inlineImageIndex % 2 === 0
+                  inlineImageIndex += 1
+                  return (
+                  <div
+                    className={`w-full sm:w-64 md:w-80 my-5 md:my-3 mx-auto md:mb-4 ${
+                      isEven ? "md:float-right md:ml-6" : "md:float-left md:mr-6"
+                    }`}
+                  >
                     <img
                       src={src || ""}
                       alt={alt || ""}
@@ -183,7 +193,8 @@ export default function BlogPostPage() {
                       className="w-full rounded-xl border border-border/50 shadow-sm"
                     />
                   </div>
-                ),
+                  )
+                },
               }}
             >
               {post.content}

@@ -12,6 +12,7 @@ export interface BlogPost {
   readTime: string
   category: string
   featuredImage: string
+  hideFeaturedImage?: boolean
   series?: {
     name: string
     part: number
@@ -36,10 +37,13 @@ export const blogPosts: BlogPost[] = [
     readTime: "12 min",
     category: "Parenting",
     featuredImage: "/images/antiparenting-slide-01.png",
+    hideFeaturedImage: true,
     content: `
 Zilele trecute, o mămică s-a trântit pe canapeaua din cabinet, un pic furioasă, un pic agasată: „Eu nu mai înțeleg nimic, Cosmin! Am citit în ultima vreme câteva cărți de parenting și m-au debusolat. Fiecare are dreptate, fiecare pare venită din altă realitate."
 
 Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri, speakeri, reels de 60 de secunde care promit soluții rapide. Părinții se simt tot mai defecți, iar copiii ajung să plătească nota de plată a confuziei. Sondajele recente din SUA arată că aproape jumătate dintre tinerii Gen Z declară un diagnostic de sănătate mintală, în special anxietate și depresie.
+
+![Cine mai știe ce e bine?](/images/antiparenting-slide-01.png)
 
 Paradoxul e că afluxul de informație nu aduce liniște. Mulți părinți ajung copleșiți de avalanșa de „rețete” și avertismente, cu sentimentul că, orice ar face, tot își vor „strica” copilul.
 
