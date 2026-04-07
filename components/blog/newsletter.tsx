@@ -76,7 +76,7 @@ export function Newsletter() {
         )}
 
         {status === "error" && (
-          <p className="mt-4 text-red-600 font-medium">
+          <p className="mt-4 text-destructive font-medium">
             A apărut o eroare. Te rugăm să încerci din nou.
           </p>
         )}
