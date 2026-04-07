@@ -14,7 +14,7 @@ export function SocialProof() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="text-left">
               <CardContent className="p-8">
-                <div className="w-20 h-20 rounded-full overflow-hidden mb-6 mx-auto relative">
+                <div className="w-[7.5rem] h-[7.5rem] rounded-full overflow-hidden mb-6 mx-auto relative">
                   <Image
                     src="/images/cosmin_meleaca_1.jpg"
                     alt="Cosmin Meleacă"
@@ -38,9 +38,9 @@ export function SocialProof() {
 
             <Card className="text-left">
               <CardContent className="p-8">
-                <div className="w-20 h-20 rounded-full overflow-hidden mb-6 mx-auto relative">
+                <div className="w-[7.5rem] h-[7.5rem] rounded-full overflow-hidden mb-6 mx-auto relative">
                   <Image
-                    src="/images/cristina_meleaca_1.jpg"
+                    src="/images/Cris 3.png"
                     alt="Cristina Meleacă"
                     fill
                     className="object-cover"

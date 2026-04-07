@@ -121,22 +121,26 @@ export function Therapists() {
 
             <div className="space-y-4 text-foreground/75 leading-relaxed">
               <p>
-                Am ajuns în psihologie pe un drum ocolit — șapte ani de jurnalism investigativ
+                După finalizarea facultății, înainte de a mă apuca de psihoterapie am ales un drum
+                mai ocolit. Șapte ani de jurnalism în care am investigat și am făcut analize media
                 m-au învățat să citesc între rânduri, să văd durerea din spatele furiei, să înțeleg
                 că fiecare comportament are o logică emoțională. Fără să știu, mă pregăteam.
               </p>
               <p>
-                Cinci ani de coordonat programe de formare pentru adulți m-au convins că oamenii
-                nu au nevoie să fie reparați — au nevoie să fie văzuți. În 2015 am luat decizia
-                care mi-a transformat existența: am devenit psihoterapeut. Nu pentru că aveam toate
-                răspunsurile, ci pentru că înțelesesem că întrebările mele personale mă făceau să
-                înțeleg mai bine întrebările altora.
+                Apoi, alți cinci ani am coordonat programe de formare pentru adulți care m-au
+                convins că oamenii nu au nevoie să fie reparați. Ei au nevoie să fie văzuți.
               </p>
               <p>
-                Îmi place să fiu martor la primul moment în care un client realizează că nu e
-                stricat — că pur și simplu e uman. Și la primul moment când un cuplu care nu
-                își mai vorbise de luni reușește să se privească în ochi și să-și spună adevărul
-                cu dragoste.
+                În 2015 am decis că am învățat destul din alte surse, așa că am luat decizia care
+                mi-a transformat existența: am părăsit drumurile ocolitoare și am devenit
+                psihoterapeut. Nu pentru că aveam toate răspunsurile, ci pentru că înțelesesem că
+                răspunsurile la întrebările mele personale mă făceau să înțeleg mai bine întrebările
+                altora.
+              </p>
+              <p>
+                Mă bucur să fiu martor la primul moment în care un client realizează că nu e
+                stricat și că pur și simplu e om. Și la primul moment când un cuplu care nu își mai
+                vorbise de luni reușește să se privească în ochi și să-și spună adevărul cu dragoste.
               </p>
             </div>
 
