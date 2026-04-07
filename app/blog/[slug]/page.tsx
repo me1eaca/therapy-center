@@ -55,11 +55,21 @@ export default function BlogPostPage() {
       {/* Hero Section */}
       <article className="py-8 px-4">
         <div className="container mx-auto max-w-4xl">
-          {/* Category Badge */}
-          <div className="mb-4">
+          {/* Category Badge and Series Badge */}
+          <div className="mb-4 flex flex-wrap gap-2">
             <span className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium">
               {post.category}
             </span>
+            {post.series && (
+              <span className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium border">
+                Serie în {post.series.totalParts} părți - Partea {post.series.part}
+              </span>
+            )}
+            {post.sensitiveContent && (
+              <span className="inline-block bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium border border-orange-200">
+                ⚠️ Conținut sensibil
+              </span>
+            )}
           </div>
 
           {/* Title */}
@@ -179,6 +189,41 @@ export default function BlogPostPage() {
             <p className="text-sm text-muted-foreground mb-4">A fost util acest articol?</p>
             <ShareButtons title={post.title} url={currentUrl} />
           </div>
+
+          {/* Series Navigation */}
+          {post.series && (
+            <div className="bg-secondary/30 rounded-2xl p-8 mb-12">
+              <h3 className="text-xl font-semibold mb-4">Seria: {post.series.name}</h3>
+              <div className="space-y-3">
+                {post.series.parts.map((partSlug, index) => {
+                  const partPost = getPostBySlug(partSlug)
+                  if (!partPost) return null
+                  
+                  const isCurrent = partSlug === post.slug
+                  
+                  return (
+                    <div key={partSlug} className={`flex items-center gap-3 p-3 rounded-lg ${isCurrent ? 'bg-primary/10 border border-primary/20' : 'hover:bg-secondary/50'}`}>
+                      <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${isCurrent ? 'bg-primary text-primary-foreground' : 'bg-secondary text-secondary-foreground'}`}>
+                        {index + 1}
+                      </span>
+                      <div className="flex-1">
+                        {isCurrent ? (
+                          <span className="font-medium text-primary">{partPost.title}</span>
+                        ) : (
+                          <Link href={`/blog/${partSlug}`} className="font-medium hover:text-primary transition-colors">
+                            {partPost.title}
+                          </Link>
+                        )}
+                      </div>
+                      {isCurrent && (
+                        <span className="text-sm text-muted-foreground">(articolul curent)</span>
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Newsletter */}
           <Newsletter />
