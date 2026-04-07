@@ -123,16 +123,14 @@ export function ObjectionHandling() {
                   <div className="bg-primary/10 rounded-lg p-6">
                     <h4 className="font-semibold mb-2">Pentru cupluri specifice:</h4>
                     <p className="text-foreground mb-2">
-                      • <strong>Costul unui divorț în România poate depăși 10.000 de euro</strong> (avocați, împărțirea
-                      bunurilor, două gospodării separate)
+                      • Pentru multe cupluri, mai ales când există conflicte și partaj de bunuri, costurile totale ale
+                      unui divorț (avocați, taxe, expertize, mutare în două gospodării) pot ajunge la zeci de mii de
+                      lei și pot depăși în timp 10.000 de euro.
                     </p>
                     <p className="text-foreground">
-                      •{" "}
-                      <strong>
-                        Studiile arată că persoanele care merg la terapie individuală pentru probleme de cuplu au șanse
-                        mai mari să divorțeze
-                      </strong>{" "}
-                      decât cei care vin împreună la terapie de cuplu
+                      • Dacă lucrezi probleme de cuplu doar în terapie individuală, fără să aduci și relația în
+                      cabinet, există riscul ca terapia să clarifice că vrei să pleci, nu să rămâi. Terapia de cuplu
+                      pune explicit pe masă obiectivul de a înțelege dacă și cum poate fi reparată relația.
                     </p>
                   </div>
                   <p className="text-lg font-medium text-primary text-center">

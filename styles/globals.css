@@ -4,24 +4,24 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.984 0.006 340);
+  --background: oklch(0.975 0.008 145);
   --foreground: oklch(0.15 0.055 295);
-  --card: oklch(1 0 0);
+  --card: oklch(0.99 0.005 150);
   --card-foreground: oklch(0.15 0.055 295);
-  --popover: oklch(1 0 0);
+  --popover: oklch(0.99 0.005 150);
   --popover-foreground: oklch(0.15 0.055 295);
   --primary: oklch(0.45 0.115 295);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.955 0.022 295);
+  --secondary: oklch(0.94 0.018 145);
   --secondary-foreground: oklch(0.15 0.055 295);
-  --muted: oklch(0.955 0.022 295);
-  --muted-foreground: oklch(0.52 0.04 295);
-  --accent: oklch(0.955 0.022 295);
+  --muted: oklch(0.965 0.012 145);
+  --muted-foreground: oklch(0.45 0.03 295);
+  --accent: oklch(0.905 0.03 295);
   --accent-foreground: oklch(0.15 0.055 295);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.88 0.032 295);
-  --input: oklch(0.88 0.032 295);
+  --border: oklch(0.87 0.015 160);
+  --input: oklch(0.87 0.015 160);
   --ring: oklch(0.45 0.115 295);
   --radius: 0.75rem;
 }

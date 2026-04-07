@@ -14,7 +14,7 @@ export function HeroSection() {
   return (
     <section
       id="acasa"
-      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 via-background to-accent/5"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-secondary/45 via-background to-accent/20"
     >
       <div className="container mx-auto px-4 py-20 text-center">
         <div className="max-w-5xl mx-auto space-y-12">
@@ -28,7 +28,7 @@ export function HeroSection() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-2xl p-8 border border-primary/20 max-w-3xl mx-auto">
+          <div className="bg-gradient-to-r from-secondary/60 via-background to-accent/35 rounded-2xl p-8 border border-primary/20 max-w-3xl mx-auto">
             <p className="text-2xl md:text-3xl font-serif font-semibold text-foreground text-balance leading-relaxed">
               În final totul va fi bine. Dacă nu e bine, înseamnă că nu este finalul.
             </p>
