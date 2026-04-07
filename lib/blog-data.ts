@@ -47,9 +47,9 @@ Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri
 
 Paradoxul e că afluxul de informație nu aduce liniște. Mulți părinți ajung copleșiți de avalanșa de „rețete” și avertismente, cu sentimentul că, orice ar face, tot își vor „strica” copilul.
 
-![Două cărți, două extreme](/images/antiparenting-slide-02.png)
-
 Recunosc, am și eu multe cărți pe raft. Azi mă leg de două care agață din extreme diferite: **Bad Therapy** (Abigail Shrier) și **Antiparenting** (Savatie Baștovoi). Sunt bine scrise, se citesc ușor și pun întrebări incomode, reale.
+
+![Când cărțile strigă prea tare](/images/antiparenting-slide-03.png)
 
 Problema nu e că sunt critice. Problema e că fiecare merge foarte departe în direcția ei. Shrier vede un sistem care uneori „tratează oameni sănătoși și îi îmbolnăvește". Baștovoi vede un parenting modern care poate anula relația vie părinte-copil în favoarea manualului și a expertului.
 
@@ -59,8 +59,6 @@ Da, industria de „ajutor” poate face rău când nu are limite. Da, unele int
 
 Manualele de parenting pot sabota încrederea părintelui când devin dogme. Atunci meseria de părinte pare rezervată experților, iar intuiția ta de mamă sau tată e anihilată.
 
-![Când cărțile strigă prea tare](/images/antiparenting-slide-03.png)
-
 Pentru un cititor cu gândire critică, e relativ simplu să extragă ce e valoros și să lase restul. Pentru un părinte obosit, vinovat, speriat să nu greșească iremediabil, efectul poate fi opus.
 
 După **Bad Therapy**, unii ajung să nu mai ceară ajutor niciodată, chiar când copilul are reală nevoie de intervenție. După **Antiparenting**, unii trăiesc rușine față de terapie sau consiliere, ca și cum ar fi trădare de identitate.
@@ -69,25 +67,21 @@ Dacă le citești pe amândouă fără filtru, apare frica: „n-am voie să gre
 
 Adevărul, mai puțin „vandabil”, e simplu: **meseria de părinte se învață și se simte**.
 
-![Ce se întâmplă cu un părinte obosit?](/images/antiparenting-slide-04.png)
-
 Se învață, pentru că nimeni nu se naște pregătit pentru crize, adolescență, ecrane, limite. Avem nevoie de repere, modele, cercetare serioasă, uneori și de terapie.
 
 Se simte, pentru că relația ta cu copilul tău e unică, vie, și nu încape într-un tabel „așa da / așa nu”. Când trăim doar după reguli, pierdem contactul cu copilul real din fața noastră.
 
 Ca părinte, merită să ții minte că excesele există. Fii atent pe mâna cui îți lași copilul. Întreabă de formare, cere dovezi, verifică limitele. Nu e lipsă de respect, e implicare.
 
+![Busolă, nu bici](/images/antiparenting-slide-05.png)
+
 Dar nu arunca la gunoi toată psihologia. Caută surse serioase, bine argumentate. Protejează-ți încrederea în tine: citește, consultă-te, apoi decide în acord cu conștiința ta și cu realitatea copilului tău.
 
 Folosește teoria atașamentului ca **busolă, nu bici**. Nu „am stricat copilul?”, ci „ce pot face mâine ca relația noastră să fie un pic mai sigură, mai caldă, mai clară?”
 
-![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
-
 Când zgomotul e prea mare, mă întorc la Bowlby. Mesajul lui de bază: copilul are nevoie de o figură de atașament **suficient de sigură**, nu de una perfectă.
 
 Asta e vestea eliberatoare: copilul tău are nevoie de tine, nu de o versiune sterilă, perfectă a ta.
-
-![Busolă, nu bici](/images/antiparenting-slide-05.png)
 
 Dacă după toate cărțile te simți și mai neliniștit, privește-le ca pe fotografii extreme ale unei lumi care a uitat să aibă încredere în părinți.
 
