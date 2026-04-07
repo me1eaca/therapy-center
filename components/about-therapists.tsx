@@ -1,88 +1,55 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Target, Microscope, HandHeart } from "lucide-react"
+﻿import { Heart, Shield, Sparkles } from "lucide-react"
 
 export function AboutTherapists() {
   return (
-    <section id="despre-noi" className="py-20">
+    <section id="despre-noi" className="py-20 bg-secondary/40">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-balance">
-              De ce să alegi Aware Connections Center?
-            </h2>
-            <p className="text-xl text-muted-foreground text-balance">
-              Pentru că înțelegem că fiecare călătorie de vindecare este unică și merită respect, compasiune și
-              expertiză profesională.
-            </p>
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
+            De ce Aware Connections
+          </p>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-foreground">
+            Nu te reparÄƒm. Te Ã®nsoÈ›im.
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-14 max-w-2xl mx-auto">
+            Nu Ã®ncercÄƒm sÄƒ te â€žreparÄƒm" pentru cÄƒ nu credem cÄƒ eÈ™ti stricat. Oferim spaÈ›iul È™i
+            instrumentele ca tu sÄƒ Ã®È›i descoperi propria Ã®nÈ›elepciune interioarÄƒ.
+          </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <Target className="w-8 h-8 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold mb-3">Abordare Personalizată</h3>
-                <p className="text-muted-foreground text-sm">
-                  Fiecare persoană și fiecare cuplu este unic. Adaptăm metodele la nevoile tale specifice, nu invers.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <Microscope className="w-8 h-8 text-accent-foreground" />
-                </div>
-                <h3 className="text-lg font-semibold mb-3">Metode Dovedite Științific</h3>
-                <p className="text-muted-foreground text-sm">
-                  Folosim tehnici cu eficacitate demonstrată: EFT, CBT, Schema Therapy, Terapie Sistemică, Art-terapie.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-chart-2/10 rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <HandHeart className="w-8 h-8 text-chart-2" />
-                </div>
-                <h3 className="text-lg font-semibold mb-3">Echipă de Specialiști</h3>
-                <p className="text-muted-foreground text-sm">
-                  Peste 20 de ani de experiență combinată în terapie individuală și de cuplu.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-
-          <Card className="bg-gradient-to-r from-primary/5 to-accent/5 border-primary/20">
-            <CardContent className="p-8">
-              <div className="text-center space-y-6">
-                <h3 className="text-2xl font-serif font-semibold">Formarea Noastră Continuă</h3>
-                <div className="grid md:grid-cols-2 gap-8 text-left">
-                  <div>
-                    <h4 className="font-semibold mb-3 text-primary">Certificări și Specializări:</h4>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li>• Terapia Centrată pe Emoții (EFT) - Nivel 3</li>
-                      <li>• Psihoterapie Cognitiv-Comportamentală</li>
-                      <li>• Schema Therapy</li>
-                      <li>• Art-terapie și terapie expresivă</li>
-                      <li>• Hipnoterapie clinică</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-3 text-accent-foreground">Dezvoltare Profesională:</h4>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li>• Workshop-uri anuale internaționale</li>
-                      <li>• Dezvoltare profesională continuă bazată pe cercetare științifică</li>
-                      <li>• Cercetare în domeniul terapiei de cuplu</li>
-                      <li>• Membri în asociații profesionale</li>
-                      <li>• Articole publicate în domeniul psihoterapiei</li>
-                    </ul>
-                  </div>
-                </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center space-y-3">
+              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
+                <Heart className="w-7 h-7 text-primary" />
               </div>
-            </CardContent>
-          </Card>
+              <h3 className="font-semibold text-foreground">Abordare personalizatÄƒ</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Fiecare persoanÄƒ È™i fiecare cuplu este unic. AdaptÄƒm metoda la nevoile tale,
+                nu invers.
+              </p>
+            </div>
+
+            <div className="text-center space-y-3">
+              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
+                <Shield className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground">Metode dovedite È™tiiÈ›ific</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                EFT are una dintre cele mai ridicate rate de succes Ã®n terapia de cuplu,
+                validatÄƒ de zeci de studii.
+              </p>
+            </div>
+
+            <div className="text-center space-y-3">
+              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
+                <Sparkles className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground">ExperienÈ›Äƒ combinatÄƒ</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Peste 30 de ani de experienÈ›Äƒ combinatÄƒ. È˜i ceva mai important: Ã®nÈ›elegem
+                din interior ce Ã®nseamnÄƒ sÄƒ construieÈ™ti o relaÈ›ie.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
