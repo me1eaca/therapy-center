@@ -1,4 +1,4 @@
-﻿import Image from "next/image"
+import Image from "next/image"
 import { Quote } from "lucide-react"
 
 export function Therapists() {
@@ -9,14 +9,14 @@ export function Therapists() {
         {/* Header */}
         <div className="max-w-2xl mx-auto text-center mb-20">
           <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">
-            Echipa noastrÄƒ
+            Echipa noastră
           </p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6">
-            Oameni Ã®nainte de terapeuÈ›i
+            Oameni înainte de terapeuți
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            ÃŽnainte sÄƒ fim specialiÈ™ti Ã®n Terapia CentratÄƒ pe EmoÈ›ii, suntem un cuplu care a
-            Ã®nvÄƒÈ›at pe propria piele ce Ã®nseamnÄƒ sÄƒ construieÈ™ti o conexiune autenticÄƒ.
+            Înainte să fim specialiști în Terapia Centrată pe Emoții, suntem un cuplu care a
+            învățat pe propria piele ce înseamnă să construiești o conexiune autentică.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function Therapists() {
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/cristina_meleaca_new.png"
-                alt="Cristina MeleacÄƒ â€” Psihoterapeut EFT"
+                alt="Cristina Meleacă — Psihoterapeut EFT"
                 fill
                 className="object-cover object-top"
                 priority
@@ -38,128 +38,128 @@ export function Therapists() {
           <div className="flex flex-col justify-center gap-6 lg:pt-8">
             <div>
               <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-2">
-                Psihoterapeut EFT Â· EFIT Â· Art-terapie
+                Psihoterapeut EFT · EFIT · Art-terapie
               </p>
               <h3 className="text-3xl font-serif font-bold text-foreground mb-1">
-                Cristina MeleacÄƒ
+                Cristina Meleacă
               </h3>
-              <p className="text-muted-foreground text-sm">Felicia-Cristina MeleacÄƒ</p>
+              <p className="text-muted-foreground text-sm">Felicia-Cristina Meleacă</p>
             </div>
 
             <blockquote className="border-l-2 border-primary pl-5 py-1">
               <Quote className="w-5 h-5 text-primary/40 mb-2" />
               <p className="text-foreground/80 italic leading-relaxed font-serif text-lg">
-                â€žAm Ã®nvÄƒÈ›at cÄƒ vindecarea nu Ã®nseamnÄƒ sÄƒ devii perfect. ÃŽnseamnÄƒ sÄƒ devii Ã®ntreg."
+                „Am învățat că vindecarea nu înseamnă să devii perfect. Înseamnă să devii întreg.”
               </p>
             </blockquote>
 
             <div className="space-y-4 text-foreground/75 leading-relaxed">
               <p>
-                Am Ã®nceput aceastÄƒ cÄƒlÄƒtorie cu cei mai vulnerabili â€” copii din sistemul de adopÈ›ie
-                care nu Ã®nÈ›elegeau de ce nu sunt destul de buni ca sÄƒ fie iubiÈ›i. È˜apte ani alÄƒturi
-                de ei m-au Ã®nvÄƒÈ›at cÄƒ trauma nu e doar despre ce È›i se Ã®ntÃ¢mplÄƒ, ci despre ce
-                nu se Ã®ntÃ¢mplÄƒ cÃ¢nd ar trebui.
+                Am început această călătorie cu cei mai vulnerabili — copii din sistemul de adopție
+                care nu înțelegeau de ce nu sunt destul de buni ca să fie iubiți. Șapte ani alături
+                de ei m-au învățat că trauma nu e doar despre ce ți se întâmplă, ci despre ce
+                nu se întâmplă când ar trebui.
               </p>
               <p>
-                Doisprezece ani ca È™i consilier È™colar Ã®n CJRAE â€” alÄƒturi de elevi, pÄƒrinÈ›i È™i
-                profesori â€” m-au convins cÄƒ judecata nu vindecÄƒ pe nimeni, dar empatia poate face
-                minuni. CÄƒ pÄƒrintele dificil de azi a fost copilul rÄƒnit de ieri.
+                Doisprezece ani ca și consilier școlar în CJRAE — alături de elevi, părinți și
+                profesori — m-au convins că judecata nu vindecă pe nimeni, dar empatia poate face
+                minuni. Că părintele dificil de azi a fost copilul rănit de ieri.
               </p>
               <p>
-                CÃ¢nd am descoperit Terapia CentratÄƒ pe EmoÈ›ii, am simÈ›it cÄƒ am gÄƒsit limba pe care
-                inima mea o vorbea de ani de zile. EFT nu judecÄƒ, nu eticheteazÄƒ â€” pur È™i simplu
-                Ã®i ajutÄƒ pe oameni sÄƒ Ã®nÈ›eleagÄƒ cÄƒ emoÈ›iile lor au sens È™i cÄƒ meritÄƒ sÄƒ fie iubiÈ›i
-                exact aÈ™a cum sunt.
+                Când am descoperit Terapia Centrată pe Emoții, am simțit că am găsit limba pe care
+                inima mea o vorbea de ani de zile. EFT nu judecă, nu etichetează — pur și simplu
+                îi ajută pe oameni să înțeleagă că emoțiile lor au sens și că merită să fie iubiți
+                exact așa cum sunt.
               </p>
             </div>
 
             <div className="bg-secondary rounded-xl p-5">
               <p className="text-xs font-semibold tracking-widest uppercase text-primary mb-3">
-                Formare profesionalÄƒ
+                Formare profesională
               </p>
               <ul className="space-y-1.5 text-sm text-foreground/70">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Psihoterapie sistemicÄƒ centratÄƒ pe emoÈ›ii â€” formare lungÄƒ duratÄƒ
+                  Psihoterapie sistemică centrată pe emoții — formare lungă durată
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Program formativ de bazÄƒ Ã®n art-terapie â€” Phronetik
+                  Program formativ de bază în art-terapie — Phronetik
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Terapie de familie centratÄƒ pe emoÈ›ii Â· Formare continuÄƒ
+                  Terapie de familie centrată pe emoții · Formare continuă
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  EFT World Summit 2024 Â· Workshop trauma Ã®n EFT
+                  EFT World Summit 2024 · Workshop trauma în EFT
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        {/* Cosmin â€” layout inversat */}
+        {/* Cosmin — layout inversat */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           <div className="flex flex-col justify-center gap-6 lg:pt-8 order-2 lg:order-1">
             <div>
               <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-2">
-                Psihoterapeut EFT Â· EFIT Â· Traumatologie
+                Psihoterapeut EFT · EFIT · Traumatologie
               </p>
               <h3 className="text-3xl font-serif font-bold text-foreground">
-                Cosmin MeleacÄƒ
+                Cosmin Meleacă
               </h3>
             </div>
 
             <blockquote className="border-l-2 border-primary pl-5 py-1">
               <Quote className="w-5 h-5 text-primary/40 mb-2" />
               <p className="text-foreground/80 italic leading-relaxed font-serif text-lg">
-                â€žAm Ã®nvÄƒÈ›at cÄƒ cea mai mare putere nu e sÄƒ controlezi totul, ci sÄƒ ai curajul
-                sÄƒ fii vulnerabil."
+                „Am învățat că cea mai mare putere nu e să controlezi totul, ci să ai curajul
+                să fii vulnerabil.”
               </p>
             </blockquote>
 
             <div className="space-y-4 text-foreground/75 leading-relaxed">
               <p>
-                Am ajuns Ã®n psihologie pe un drum ocolit â€” È™apte ani de jurnalism investigativ
-                m-au Ã®nvÄƒÈ›at sÄƒ citesc Ã®ntre rÃ¢nduri, sÄƒ vÄƒd durerea din spatele furiei, sÄƒ Ã®nÈ›eleg
-                cÄƒ fiecare comportament are o logicÄƒ emoÈ›ionalÄƒ. FÄƒrÄƒ sÄƒ È™tiu, mÄƒ pregÄƒteam.
+                Am ajuns în psihologie pe un drum ocolit — șapte ani de jurnalism investigativ
+                m-au învățat să citesc între rânduri, să văd durerea din spatele furiei, să înțeleg
+                că fiecare comportament are o logică emoțională. Fără să știu, mă pregăteam.
               </p>
               <p>
-                Cinci ani de coordonat programe de formare pentru adulÈ›i m-au convins cÄƒ oamenii
-                nu au nevoie sÄƒ fie reparaÈ›i â€” au nevoie sÄƒ fie vÄƒzuÈ›i. ÃŽn 2015 am luat decizia
-                care mi-a transformat existenÈ›a: am devenit psihoterapeut. Nu pentru cÄƒ aveam toate
-                rÄƒspunsurile, ci pentru cÄƒ Ã®nÈ›elesesem cÄƒ Ã®ntrebÄƒrile mele personale mÄƒ fÄƒceau sÄƒ
-                Ã®nÈ›eleg mai bine Ã®ntrebÄƒrile altora.
+                Cinci ani de coordonat programe de formare pentru adulți m-au convins că oamenii
+                nu au nevoie să fie reparați — au nevoie să fie văzuți. În 2015 am luat decizia
+                care mi-a transformat existența: am devenit psihoterapeut. Nu pentru că aveam toate
+                răspunsurile, ci pentru că înțelesesem că întrebările mele personale mă făceau să
+                înțeleg mai bine întrebările altora.
               </p>
               <p>
-                ÃŽmi place sÄƒ fiu martor la primul moment Ã®n care un client realizeazÄƒ cÄƒ nu e
-                stricat â€” cÄƒ pur È™i simplu e uman. È˜i la primul moment cÃ¢nd un cuplu care nu
-                Ã®È™i mai vorbise de luni reuÈ™eÈ™te sÄƒ se priveascÄƒ Ã®n ochi È™i sÄƒ-È™i spunÄƒ adevÄƒrul
+                Îmi place să fiu martor la primul moment în care un client realizează că nu e
+                stricat — că pur și simplu e uman. Și la primul moment când un cuplu care nu
+                își mai vorbise de luni reușește să se privească în ochi și să-și spună adevărul
                 cu dragoste.
               </p>
             </div>
 
             <div className="bg-secondary rounded-xl p-5">
               <p className="text-xs font-semibold tracking-widest uppercase text-primary mb-3">
-                Formare profesionalÄƒ
+                Formare profesională
               </p>
               <ul className="space-y-1.5 text-sm text-foreground/70">
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Terapia de Cuplu CentratÄƒ pe EmoÈ›ii (EFT) Â· Extindere EFIT
+                  Terapia de Cuplu Centrată pe Emoții (EFT) · Extindere EFIT
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Psihoterapie Cognitiv-ComportamentalÄƒ Â· Hipnoterapie
+                  Psihoterapie Cognitiv-Comportamentală · Hipnoterapie
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Schema Therapy Â· Terapie SistemicÄƒ Â· Traumatologie
+                  Schema Therapy · Terapie Sistemică · Traumatologie
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  EFT World Summit 2024 Â· ViolenÈ›a Ã®n cuplu Â· Sexualitate Ã®n terapie
+                  EFT World Summit 2024 · Violența în cuplu · Sexualitate în terapie
                 </li>
               </ul>
             </div>
@@ -169,7 +169,7 @@ export function Therapists() {
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/cosmin_meleaca_1.jpg"
-                alt="Cosmin MeleacÄƒ â€” Psihoterapeut EFT"
+                alt="Cosmin Meleacă — Psihoterapeut EFT"
                 fill
                 className="object-cover object-top"
               />
@@ -183,11 +183,11 @@ export function Therapists() {
           <div className="bg-secondary rounded-2xl p-10">
             <Quote className="w-8 h-8 text-primary/40 mx-auto mb-4" />
             <p className="text-xl font-serif text-foreground leading-relaxed mb-6">
-              â€žSuntem dovada vie cÄƒ relaÈ›iile pot fi vindecate, cÄƒ intimitatea poate fi
-              construitÄƒ È™i cÄƒ dragostea poate sÄƒ creascÄƒ chiar È™i dupÄƒ ani de zile Ã®mpreunÄƒ."
+              „Suntem dovada vie că relațiile pot fi vindecate, că intimitatea poate fi
+              construită și că dragostea poate să crească chiar și după ani de zile împreună.”
             </p>
             <p className="text-sm font-semibold tracking-widest uppercase text-primary">
-              Cristina &amp; Cosmin MeleacÄƒ
+              Cristina &amp; Cosmin Meleacă
             </p>
           </div>
         </div>

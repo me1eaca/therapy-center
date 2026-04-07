@@ -4,40 +4,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Palette B — Amethyst cald (Erickson violet, discret) */
-  --background: oklch(0.984 0.006 340);        /* crem-roz foarte pal */
-  --foreground: oklch(0.15 0.055 295);          /* negru-prune profund */
-  --card: oklch(1 0 0);                         /* alb curat pe carduri */
+  --background: oklch(0.984 0.006 340);
+  --foreground: oklch(0.15 0.055 295);
+  --card: oklch(1 0 0);
   --card-foreground: oklch(0.15 0.055 295);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0.055 295);
-  --primary: oklch(0.45 0.115 295);             /* amethyst #7a5898 */
+  --primary: oklch(0.45 0.115 295);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.955 0.022 295);          /* levănțică pal #f5eef8 */
+  --secondary: oklch(0.955 0.022 295);
   --secondary-foreground: oklch(0.15 0.055 295);
   --muted: oklch(0.955 0.022 295);
-  --muted-foreground: oklch(0.52 0.04 295);     /* mov-gri mediu */
+  --muted-foreground: oklch(0.52 0.04 295);
   --accent: oklch(0.955 0.022 295);
   --accent-foreground: oklch(0.15 0.055 295);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.88 0.032 295);              /* bordură mov-pal */
+  --border: oklch(0.88 0.032 295);
   --input: oklch(0.88 0.032 295);
   --ring: oklch(0.45 0.115 295);
-  --chart-1: oklch(0.45 0.115 295);
-  --chart-2: oklch(0.73 0.085 295);
-  --chart-3: oklch(0.60 0.10 295);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.75rem;
-  --sidebar: oklch(0.984 0.006 340);
-  --sidebar-foreground: oklch(0.15 0.055 295);
-  --sidebar-primary: oklch(0.45 0.115 295);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.955 0.022 295);
-  --sidebar-accent-foreground: oklch(0.15 0.055 295);
-  --sidebar-border: oklch(0.88 0.032 295);
-  --sidebar-ring: oklch(0.45 0.115 295);
 }
 
 .dark {

@@ -1,4 +1,4 @@
-﻿import { Heart, Shield, Sparkles } from "lucide-react"
+import { Heart, Shield, Sparkles } from "lucide-react"
 
 export function AboutTherapists() {
   return (
@@ -9,11 +9,11 @@ export function AboutTherapists() {
             De ce Aware Connections
           </p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6 text-foreground">
-            Nu te reparÄƒm. Te Ã®nsoÈ›im.
+            Nu te reparăm. Te însoțim.
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-14 max-w-2xl mx-auto">
-            Nu Ã®ncercÄƒm sÄƒ te â€žreparÄƒm" pentru cÄƒ nu credem cÄƒ eÈ™ti stricat. Oferim spaÈ›iul È™i
-            instrumentele ca tu sÄƒ Ã®È›i descoperi propria Ã®nÈ›elepciune interioarÄƒ.
+            Nu încercăm să te „reparăm" pentru că nu credem că ești stricat. Oferim spațiul și
+            instrumentele ca tu să îți descoperi propria înțelepciune interioară.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -21,9 +21,9 @@ export function AboutTherapists() {
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
                 <Heart className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground">Abordare personalizatÄƒ</h3>
+              <h3 className="font-semibold text-foreground">Abordare personalizată</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Fiecare persoanÄƒ È™i fiecare cuplu este unic. AdaptÄƒm metoda la nevoile tale,
+                Fiecare persoană și fiecare cuplu este unic. Adaptăm metoda la nevoile tale,
                 nu invers.
               </p>
             </div>
@@ -32,10 +32,10 @@ export function AboutTherapists() {
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
                 <Shield className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground">Metode dovedite È™tiiÈ›ific</h3>
+              <h3 className="font-semibold text-foreground">Metode dovedite științific</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                EFT are una dintre cele mai ridicate rate de succes Ã®n terapia de cuplu,
-                validatÄƒ de zeci de studii.
+                EFT are una dintre cele mai ridicate rate de succes în terapia de cuplu,
+                validată de zeci de studii.
               </p>
             </div>
 
@@ -43,10 +43,10 @@ export function AboutTherapists() {
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto">
                 <Sparkles className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground">ExperienÈ›Äƒ combinatÄƒ</h3>
+              <h3 className="font-semibold text-foreground">Experiență combinată</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Peste 30 de ani de experienÈ›Äƒ combinatÄƒ. È˜i ceva mai important: Ã®nÈ›elegem
-                din interior ce Ã®nseamnÄƒ sÄƒ construieÈ™ti o relaÈ›ie.
+                Peste 30 de ani de experiență combinată. Și ceva mai important: înțelegem
+                din interior ce înseamnă să construiești o relație.
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+﻿import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { ProblemIdentification } from "@/components/problem-identification"
 import { ObjectionHandling } from "@/components/objection-handling"
@@ -9,6 +9,7 @@ import { VisionSection } from "@/components/vision-section"
 import { PromiseSection } from "@/components/promise-section"
 import { FinalCTA } from "@/components/final-cta"
 import { ContactForm } from "@/components/contact-form"
+import { Therapists } from "@/components/therapists"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <ProblemIdentification />
       <ObjectionHandling />
       <SocialProof />
+      <Therapists />
       <AboutTherapists />
       <Services />
       <VisionSection />

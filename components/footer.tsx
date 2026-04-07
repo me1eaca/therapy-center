@@ -1,4 +1,3 @@
-﻿import Link from "next/link"
 import { Mail, MapPin, Phone } from "lucide-react"
 
 export function Footer() {
@@ -11,11 +10,11 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-serif font-semibold">Aware Connections Center</h3>
             <p className="text-background/60 italic text-sm leading-relaxed">
-              â€žBun venit acasÄƒ la tine Ã®nsuÈ›i."
+              „Bun venit acasă la tine însuți."
             </p>
             <p className="text-background/50 text-xs leading-relaxed">
-              Cosmin & Cristina MeleacÄƒ<br />
-              PsihoterapeuÈ›i specializaÈ›i Ã®n EFT È™i EFIT
+              Cosmin & Cristina Meleacă<br />
+              Psihoterapeuți specializați în EFT și EFIT
             </p>
           </div>
 
@@ -42,7 +41,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-background/70 hover:text-background transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 flex-shrink-0" />
-                  Cristina Â· WhatsApp
+                  Cristina · WhatsApp · +40728954712
                 </a>
               </li>
               <li>
@@ -53,13 +52,13 @@ export function Footer() {
                   className="flex items-center gap-3 text-background/70 hover:text-background transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 flex-shrink-0" />
-                  Cosmin Â· WhatsApp
+                  Cosmin · WhatsApp · +40726281554
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-3 text-background/70 text-sm">
                   <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                  <span>Str. GriviÈ›a 78, CÄƒlÄƒraÈ™i<br />Online È™i Ã®n cabinet</span>
+                  <span>Str. Grivița 78, Călărași<br />Online și în cabinet</span>
                 </div>
               </li>
             </ul>
@@ -72,10 +71,10 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-background/70">
               <li>Terapie de cuplu (EFT)</li>
-              <li>Terapie individualÄƒ (EFIT)</li>
+              <li>Terapie individuală (EFIT)</li>
               <li>Terapie de familie</li>
               <li>Traumatologie</li>
-              <li>Terapie adolescenÈ›i</li>
+              <li>Terapie adolescenți</li>
             </ul>
           </div>
 
@@ -83,7 +82,7 @@ export function Footer() {
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center">
           <p className="text-xs text-background/40">
-            Â© 2025 Aware Connections Center Â· Toate drepturile rezervate
+            © 2025 Aware Connections Center · Toate drepturile rezervate
           </p>
         </div>
       </div>
