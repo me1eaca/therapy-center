@@ -39,17 +39,17 @@ export const blogPosts: BlogPost[] = [
     featuredImage: "/images/antiparenting-slide-01.png",
     hideFeaturedImage: true,
     content: `
+![Cine mai știe ce e bine?](/images/antiparenting-slide-01.png)
+
 Zilele trecute, o mămică s-a trântit pe canapeaua din cabinet, un pic furioasă, un pic agasată: „Eu nu mai înțeleg nimic, Cosmin! Am citit în ultima vreme câteva cărți de parenting și m-au debusolat. Fiecare are dreptate, fiecare pare venită din altă realitate."
 
 Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri, speakeri, reels de 60 de secunde care promit soluții rapide. Părinții se simt tot mai defecți, iar copiii ajung să plătească nota de plată a confuziei. Sondajele recente din SUA arată că aproape jumătate dintre tinerii Gen Z declară un diagnostic de sănătate mintală, în special anxietate și depresie.
 
-![Cine mai știe ce e bine?](/images/antiparenting-slide-01.png)
-
 Paradoxul e că afluxul de informație nu aduce liniște. Mulți părinți ajung copleșiți de avalanșa de „rețete” și avertismente, cu sentimentul că, orice ar face, tot își vor „strica” copilul.
 
-Recunosc, am și eu multe cărți pe raft. Azi mă leg de două care agață din extreme diferite: **Bad Therapy** (Abigail Shrier) și **Antiparenting** (Savatie Baștovoi). Sunt bine scrise, se citesc ușor și pun întrebări incomode, reale.
-
 ![Două cărți, două extreme](/images/antiparenting-slide-02.png)
+
+Recunosc, am și eu multe cărți pe raft. Azi mă leg de două care agață din extreme diferite: **Bad Therapy** (Abigail Shrier) și **Antiparenting** (Savatie Baștovoi). Sunt bine scrise, se citesc ușor și pun întrebări incomode, reale.
 
 Problema nu e că sunt critice. Problema e că fiecare merge foarte departe în direcția ei. Shrier vede un sistem care uneori „tratează oameni sănătoși și îi îmbolnăvește". Baștovoi vede un parenting modern care poate anula relația vie părinte-copil în favoarea manualului și a expertului.
 
@@ -71,6 +71,8 @@ Dacă le citești pe amândouă fără filtru, apare frica: „n-am voie să gre
 
 Adevărul, mai puțin „vandabil”, e simplu: **meseria de părinte se învață și se simte**.
 
+![Ce se întâmplă cu un părinte obosit?](/images/antiparenting-slide-04.png)
+
 Se învață, pentru că nimeni nu se naște pregătit pentru crize, adolescență, ecrane, limite. Avem nevoie de repere, modele, cercetare serioasă, uneori și de terapie.
 
 Se simte, pentru că relația ta cu copilul tău e unică, vie, și nu încape într-un tabel „așa da / așa nu”. Când trăim doar după reguli, pierdem contactul cu copilul real din fața noastră.
@@ -81,13 +83,13 @@ Dar nu arunca la gunoi toată psihologia. Caută surse serioase, bine argumentat
 
 Folosește teoria atașamentului ca **busolă, nu bici**. Nu „am stricat copilul?”, ci „ce pot face mâine ca relația noastră să fie un pic mai sigură, mai caldă, mai clară?”
 
-![Busolă, nu bici](/images/antiparenting-slide-05.png)
+![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
 
 Când zgomotul e prea mare, mă întorc la Bowlby. Mesajul lui de bază: copilul are nevoie de o figură de atașament **suficient de sigură**, nu de una perfectă.
 
-![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
-
 Asta e vestea eliberatoare: copilul tău are nevoie de tine, nu de o versiune sterilă, perfectă a ta.
+
+![Busolă, nu bici](/images/antiparenting-slide-05.png)
 
 Dacă după toate cărțile te simți și mai neliniștit, privește-le ca pe fotografii extreme ale unei lumi care a uitat să aibă încredere în părinți.
 
