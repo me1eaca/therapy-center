@@ -35,14 +35,8 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-07",
     readTime: "12 min",
     category: "Parenting",
-    featuredImage: "/images/antiparenting-slide-03.png",
+    featuredImage: "/images/antiparenting-slide-01.png",
     content: `
-**Când cărțile strigă prea tare: cum să nu te pierzi în parenting**
-
-<div align="right"><em>de Psih. Cosmin Meleacă</em></div>
-
----
-
 Zilele trecute, o mămică s-a trântit pe canapeaua din cabinet, un pic furioasă, un pic agasată: „Eu nu mai înțeleg nimic, Cosmin! Am citit în ultima vreme câteva cărți de parenting și m-au debusolat. Fiecare are dreptate, fiecare pare venită din altă realitate."
 
 Sunt bombardați din toate direcțiile: rafturi întregi de titluri, influenceri, speakeri, reels de 60 de secunde care promit soluții rapide. Părinții se simt tot mai defecți, iar copiii ajung să plătească nota de plată a confuziei. Sondajele recente din SUA arată că aproape jumătate dintre tinerii Gen Z declară un diagnostic de sănătate mintală, în special anxietate și depresie.
@@ -79,12 +73,6 @@ Se învață, pentru că nimeni nu se naște pregătit pentru crize, adolescenț
 
 Se simte, pentru că relația ta cu copilul tău e unică, vie, și nu încape într-un tabel „așa da / așa nu”. Când trăim doar după reguli, pierdem contactul cu copilul real din fața noastră.
 
-Când zgomotul e prea mare, mă întorc la Bowlby. Mesajul lui de bază: copilul are nevoie de o figură de atașament **suficient de sigură**, nu de una perfectă.
-
-![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
-
-Asta e vestea eliberatoare: copilul tău are nevoie de tine, nu de o versiune sterilă, perfectă a ta.
-
 Ca părinte, merită să ții minte că excesele există. Fii atent pe mâna cui îți lași copilul. Întreabă de formare, cere dovezi, verifică limitele. Nu e lipsă de respect, e implicare.
 
 Dar nu arunca la gunoi toată psihologia. Caută surse serioase, bine argumentate. Protejează-ți încrederea în tine: citește, consultă-te, apoi decide în acord cu conștiința ta și cu realitatea copilului tău.
@@ -92,6 +80,12 @@ Dar nu arunca la gunoi toată psihologia. Caută surse serioase, bine argumentat
 Folosește teoria atașamentului ca **busolă, nu bici**. Nu „am stricat copilul?”, ci „ce pot face mâine ca relația noastră să fie un pic mai sigură, mai caldă, mai clară?”
 
 ![Busolă, nu bici](/images/antiparenting-slide-05.png)
+
+Când zgomotul e prea mare, mă întorc la Bowlby. Mesajul lui de bază: copilul are nevoie de o figură de atașament **suficient de sigură**, nu de una perfectă.
+
+![Copilul tău are nevoie de tine](/images/antiparenting-slide-06.png)
+
+Asta e vestea eliberatoare: copilul tău are nevoie de tine, nu de o versiune sterilă, perfectă a ta.
 
 Dacă după toate cărțile te simți și mai neliniștit, privește-le ca pe fotografii extreme ale unei lumi care a uitat să aibă încredere în părinți.
 
