@@ -43,7 +43,6 @@ export function Therapists() {
               <h3 className="text-3xl font-serif font-bold text-foreground mb-1">
                 Cristina Meleacă
               </h3>
-              <p className="text-muted-foreground text-sm">Felicia-Cristina Meleacă</p>
             </div>
 
             <blockquote className="border-l-2 border-primary pl-5 py-1">
@@ -55,20 +54,22 @@ export function Therapists() {
 
             <div className="space-y-4 text-foreground/75 leading-relaxed">
               <p>
-                Am început această călătorie cu cei mai vulnerabili — copii din sistemul de adopție
-                care nu înțelegeau de ce nu sunt destul de buni ca să fie iubiți. Șapte ani alături
-                de ei m-au învățat că trauma nu e doar despre ce ți se întâmplă, ci despre ce
-                nu se întâmplă când ar trebui.
+                Am început această călătorie cu cei mai vulnerabili. Copii din sistemul de adopție
+                care nu înțelegeau de ce nu sunt destul de buni ca să fie iubiți și adulți care se
+                luptau cu prejudecăți, vinovății și stigmate. Șapte ani alături de ei m-au învățat
+                că trauma nu e doar despre ce ți se întâmplă, ci despre ce nu se întâmplă când ar
+                trebui.
               </p>
               <p>
-                Doisprezece ani ca și consilier școlar în CJRAE — alături de elevi, părinți și
-                profesori — m-au convins că judecata nu vindecă pe nimeni, dar empatia poate face
-                minuni. Că părintele dificil de azi a fost copilul rănit de ieri.
+                Doisprezece ani ca și consilier școlar într-un Centru de resurse și asistență
+                educațională (CJRAE). Alături de elevi, părinți și profesori care m-au convins că
+                judecata nu vindecă pe nimeni, dar empatia poate face minuni. Că părintele dificil
+                de azi a fost copilul rănit de ieri.
               </p>
               <p>
                 Când am descoperit Terapia Centrată pe Emoții, am simțit că am găsit limba pe care
-                inima mea o vorbea de ani de zile. EFT nu judecă, nu etichetează — pur și simplu
-                îi ajută pe oameni să înțeleagă că emoțiile lor au sens și că merită să fie iubiți
+                inima mea o vorbea de ani de zile. EFT nu judecă, nu etichetează. Pur și simplu îi
+                ajută pe oameni să înțeleagă că emoțiile lor au sens și că merită să fie iubiți
                 exact așa cum sunt.
               </p>
             </div>

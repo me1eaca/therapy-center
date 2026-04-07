@@ -924,7 +924,7 @@ Pentru alte articole despre relații, traume și vindecare, vizitează blogul pe
     excerpt: "Am stat față în față cu ei. Nu în spatele ecranelor, nu printr-un feed care se derulează la infinit, ci în aceeași cameră, respirând același aer. Ce am descoperit m-a surprins și m-a emoționat în egală măsură.",
     author: {
       name: "Psih Cristina Meleacă",
-      avatar: "/images/Cris 3.png",
+      avatar: "/images/cristina_meleaca_new.png",
       role: "Psihoterapeut EFT"
     },
     date: "2025-05-18",
@@ -983,7 +983,7 @@ Iar asta, poate, este cea mai importantă lecție pe care ne-o oferă: că dinco
     excerpt: "Odată, ca niciodată s-au întâlnit un dramaturg, un regizor, trei actori, o coregrafă, un fotograf și un psiholog. Suntem în 2025, în cadrul proiectului Sutra, și ne-am propus ceva aparent simplu — să explorăm cum se raportează generația Z la cultura dominantă din România de azi.",
     author: {
       name: "Psih Cristina Meleacă",
-      avatar: "/images/Cris 3.png",
+      avatar: "/images/cristina_meleaca_new.png",
       role: "Psihoterapeut EFT"
     },
     date: "2025-05-25",
